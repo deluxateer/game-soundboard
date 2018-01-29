@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/app.css">
+</head>
+<body>
+  <div class="target">
+    <h3>Click Here</h3>
+  </div>
+  <audio class="track" src="audio/zenyatta/the-iris-embraces-you.ogg"></audio>
+
+  <script>
+  function removeTransition(e) {
+    if (e.propertyName !== 'transform') return;
+    e.target.classList.remove('playing');
+  }
+
+  function playSound(e) {
+    const audio = document.querySelector('.track');
+    const key = document.querySelector('.target');
+
+    key.classList.add('playing');
+    audio.currentTime = 0;
+    audio.play();
+  }
+
+  document.querySelector('.target').addEventListener('transitionend', removeTransition);
+  document.querySelector('.target').addEventListener('click', playSound);
+</script>
+</body>
+</html>

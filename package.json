@@ -1,0 +1,15 @@
+{
+  "name": "game-soundboard",
+  "version": "0.0.1",
+  "description": "A soundboard progressive web app that plays voice lines of the requested character",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "?.git"
+  },
+  "author": "***REMOVED***",
+  "license": "ISC"
+}

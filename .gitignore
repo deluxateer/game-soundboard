@@ -1,0 +1,6 @@
+.DS_Store
+node_modules
+.tmp
+app/audio/
+app/css/app.css
+app/js/app.js
