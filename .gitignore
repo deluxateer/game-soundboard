@@ -4,3 +4,4 @@ node_modules
 app/audio/
 app/css/app.css
 app/js/app.js
+package-lock.json

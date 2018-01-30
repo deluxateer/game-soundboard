@@ -17,9 +17,9 @@ Global stylesheet
 }
 body {
   font-family: 'overwatch', sans-serif;
-  background: url(../images/zenyatta-1.jpg);
+  /* background: url(../images/zenyatta-1.jpg);
   background-size: cover;
-  background-repeat: no-repeat;
+  background-repeat: no-repeat; */
   margin: 0;
 }
 h1, h2, h3,
