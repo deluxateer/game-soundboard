@@ -1,6 +1,4 @@
 
-
-
 function removeTransition(e) {
   if (e.propertyName !== 'transform') return;
   console.log(e.target);
@@ -8,16 +6,18 @@ function removeTransition(e) {
 }
 
 function playSound(e) {
-  const item = e.target;
+  let item = e.target;
+  if (e.target !== e.currentTarget) {
+    item = e.target.parentElement;
+  }
   const audio = item.querySelector('.track');
-  const key = item.querySelector('.target');
 
   // item.classList.add('playing');
   audio.currentTime = 0;
   audio.play();
 }
 
-document.querySelectorAll('.brd-btn').forEach( track => {
+document.querySelectorAll('.brd-btn').forEach( btn => {
   // track.addEventListener('transitionend', removeTransition);
-  track.addEventListener('click', playSound);
+  btn.addEventListener('click', playSound);
 });

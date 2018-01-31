@@ -9,6 +9,18 @@
 }
 
 /*
+Overwatch Color Theme:
+https://coolors.co/ffc70e-f99e1a-43484c-00c3ff-b2b0b0
+*/
+:root {
+  --mikado-yellow:  #FFC70E;
+  --bright-yellow:  #F99E1A;
+  --outer-space:    #43484C;
+  --deep-sky-blue:  #00C3FF;
+  --silver-chalice: #B2B0B0;
+}
+
+/*
 Global stylesheet
 -----------------------------------*/
 
@@ -18,25 +30,108 @@ Global stylesheet
 html {
   font-size: 16px;
 }
-body {
+.site {
   font-family: 'overwatch', sans-serif;
-  /* background: url(../images/zenyatta-1.jpg);
-  background-size: cover;
-  background-repeat: no-repeat; */
+  background-color: var(--outer-space);
   margin: 0;
 }
 h1, h2, h3,
 h4, h5, h6 {
   font-family: 'overwatch-italic', helvetica;
+  color: var(--bright-yellow);
+  margin: 0;
+}
+p {
+  color: #fff;
+}
+img {
+  display: block;
+  border: 0;
+  width: 100%;
+  height: auto;
 }
 .container {
   width: 90%;
-  max-width: 600px;
+  max-width: 50em;
   margin: 0 auto;
   text-align: center;
+  /* background-color: var(--silver-chalice); */
+}
+
+
+/*
+Header Section
+-----------------------------------*/
+
+header {
+  padding: 30px 0;
+  /* background-color: var(--silver-chalice); */
+}
+.game-title {
+  font-size: 2rem;
+  margin-top: 20px;
+}
+.character-icon {
+  display: block;
+  width: 40%;
+  max-width: 180px;
+  height: auto;
+  margin: 25px auto;
+  border: 0;
+}
+.character-name {
+  font-size: 1.7rem;
+}
+
+/*
+Soundboard Sections
+-----------------------------------*/
+
+main {
+  padding: 10px;
+}
+h3 {
+  font-size: 1.4rem;
+}
+
+/*
+Soundboard Sections
+-----------------------------------*/
+
+.grid {
+  margin: 20px 0;
 }
 .brd-btn {
-  width: 300px;
-  height: 300px;
-  background-color: green;
+  width: 85%;
+  margin: 8px auto;
+  background-color: rgba(178, 176, 176, .3);
+  border: 1px solid #fff;
+}
+.brd-btn p {
+  margin: 0;
+  padding: 16px 0;
+}
+.brd-btn:hover {
+  background-color: #fff;
+}
+.brd-btn p:hover {
+  color: #000;
+}
+
+/*
+Footer
+-----------------------------------*/
+
+footer {
+  background-color: var(--deep-sky-blue);
+  padding: 20px;
+}
+footer p, footer li {
+  color: #fff;
+}
+footer ul {
+  margin: 0;
+}
+footer li {
+  list-style-type: none;
 }
