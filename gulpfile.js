@@ -11,7 +11,7 @@ var gulp = require('gulp'),
 
 var src = './process',
     dest = './app',
-    env = 'development';
+    env = 'production';
 
 gulp.task('css', function () {
   gulp.src(`${src}/css/app.css`)
@@ -21,8 +21,11 @@ gulp.task('css', function () {
 
 gulp.task('js', function (cb) {
   pump([
-        gulp.src(`${src}/js/app.js`),
+        gulp.src(`${src}/js/*.js`),
         babel({ presets: ['es2015'] }),
+        concat('app.js').on('error', function(err){
+          console.error('Error!', err.message)
+        }),
         gulpif(env === 'production', uglify()).on('error', function(err){
           console.error('Error!', err.message)
         }),
