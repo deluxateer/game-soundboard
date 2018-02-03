@@ -25,16 +25,13 @@ tablinks.forEach(tab => {
   tab.addEventListener("click", function(e) { openSection(e, tab.innerHTML); });
 });
 
-window.onresize = function() {
-  if (window.innerWidth >= 768) {
-    clearActive();
-    tabcontent.forEach(tab => {
-      tab.style.display = "block";
-    });
-  } else {
-    document.querySelector(`[data-name='${currSection}']`).click();
-  }
-};
+// window.onresize = function() {
+//   clearActive();
+//   tabcontent.forEach(tab => {
+//     tab.style.display = "block";
+//   });
+//   document.querySelector(`[data-name='${currSection}']`).click();
+// };
 
 // Get the element with id="defaultOpen" and click on it
 document.getElementById("defaultOpen").click();

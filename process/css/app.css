@@ -32,14 +32,13 @@ html {
 }
 .site {
   font-family: 'overwatch', sans-serif;
-  /* background-color: var(--outer-space); */
   background:
-    linear-gradient(27deg, #151515 5px, transparent 5px) 0 5px,
-    linear-gradient(207deg, #151515 5px, transparent 5px) 10px 0px,
-    linear-gradient(27deg, #222 5px, transparent 5px) 0px 10px,
-    linear-gradient(207deg, #222 5px, transparent 5px) 10px 5px,
-    linear-gradient(90deg, #1b1b1b 10px, transparent 10px),
-    linear-gradient(#1d1d1d 25%, #1a1a1a 25%, #1a1a1a 50%, transparent 50%, transparent 75%, #242424 75%, #242424);
+  linear-gradient(27deg, #151515 5px, transparent 5px) 0 5px,
+  linear-gradient(207deg, #151515 5px, transparent 5px) 10px 0px,
+  linear-gradient(27deg, #222 5px, transparent 5px) 0px 10px,
+  linear-gradient(207deg, #222 5px, transparent 5px) 10px 5px,
+  linear-gradient(90deg, #1b1b1b 10px, transparent 10px),
+  linear-gradient(#1d1d1d 25%, #1a1a1a 25%, #1a1a1a 50%, transparent 50%, transparent 75%, #242424 75%, #242424);
   background-color: #131313;
   background-size: 20px 20px;
   margin: 0;
@@ -61,12 +60,9 @@ img {
 }
 .container {
   width: 90%;
-  max-width: 50em;
   margin: 0 auto;
   text-align: center;
-  /* background-color: var(--silver-chalice); */
 }
-
 
 /*
 Header Section
@@ -74,10 +70,9 @@ Header Section
 
 header {
   padding: 30px 0;
-  /* background-color: var(--silver-chalice); */
 }
 .game-title {
-  font-size: 2rem;
+  font-size: 2.3rem;
   margin-top: 20px;
 }
 .character-icon {
@@ -89,7 +84,7 @@ header {
   border: 0;
 }
 .character-name {
-  font-size: 1.7rem;
+  font-size: 1.9rem;
 }
 
 /*
@@ -103,34 +98,35 @@ h3 {
   font-size: 1.4rem;
 }
 .tab {
-    overflow: hidden;
-    background-color: var(--mikado-yellow);
-  }
-  /* Style the buttons that are used to open the tab content */
-  .tab button {
-    background-color: inherit;
-    float: left;
-    font-family: 'overwatch', sans-serif;
-    outline: none;
-    cursor: pointer;
-    padding: 14px 16px;
-    border: none;
-  }
-  /* Change background color of buttons on hover */
-  .tab button:hover {
-    background-color: #FFB20C;
-  }
-  /* Create an active/current tablink class */
-  .tab button.active {
-    background-color: var(--bright-yellow);
-  }
-  /* Style the tab content */
-  .tabcontent {
-    display: none;
-    padding: 6px 12px;
-    border-top: none;
-    margin: 10px 0;
-  }
+  overflow: hidden;
+  background-color: var(--mikado-yellow);
+}
+/* Style the buttons that are used to open the tab content */
+.tab button {
+  background-color: inherit;
+  float: left;
+  font-family: 'overwatch', sans-serif;
+  font-size: 1.3rem;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  border: none;
+}
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #FFB20C;
+}
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color: var(--bright-yellow);
+}
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border-top: none;
+  margin: 10px 0;
+}
 
 /*
 Soundboard Sections
@@ -188,15 +184,29 @@ footer a:hover {
 }
 
 @media (min-width: 768px) {
-  /*
-  Global Styles
-  -----------------------------------*/
   .site {
     background: linear-gradient(rgba(67, 72, 76, .6), rgba(67, 72, 76, .4)), url(../images/zenyatta-1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
   }
-  .tab {
-    display: none;
+  header {
+    float: left;
+    margin: 0 35px 25px 0;
+    padding-bottom: 0;
+  }
+  .game-title {
+    margin: 0;
+  }
+  main {
+    padding-top: 30px;
+    min-height: 800px;
+  }
+}
+
+@media (min-width: 1024px) {
+  @supports (grid-area: auto) {
+    .grid {
+      grid-template-columns: repeat(6, 1fr);
+    }
   }
 }
