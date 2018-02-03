@@ -32,7 +32,17 @@ html {
 }
 .site {
   font-family: 'overwatch', sans-serif;
-  background-color: var(--outer-space);
+  /* background-color: var(--outer-space); */
+  background:
+    linear-gradient(27deg, #151515 5px, transparent 5px) 0 5px,
+    linear-gradient(207deg, #151515 5px, transparent 5px) 10px 0px,
+    linear-gradient(27deg, #222 5px, transparent 5px) 0px 10px,
+    linear-gradient(207deg, #222 5px, transparent 5px) 10px 5px,
+    linear-gradient(90deg, #1b1b1b 10px, transparent 10px),
+    linear-gradient(#1d1d1d 25%, #1a1a1a 25%, #1a1a1a 50%, transparent 50%, transparent 75%, #242424 75%, #242424);
+    background-color: #131313;
+    /* background-color: var(--outer-space); */
+    background-size: 20px 20px;
   margin: 0;
 }
 h1, h2, h3,
@@ -100,7 +110,7 @@ h3 {
   /* Style the buttons that are used to open the tab content */
   .tab button {
     background-color: inherit;
-    /* float: left; */
+    float: left;
     font-family: 'overwatch', sans-serif;
     outline: none;
     cursor: pointer;
@@ -120,15 +130,13 @@ h3 {
     display: none;
     padding: 6px 12px;
     border-top: none;
+    margin: 10px 0;
   }
 
 /*
 Soundboard Sections
 -----------------------------------*/
 
-.grid {
-  margin: 20px 0;
-}
 .brd-btn {
   width: 85%;
   margin: 8px auto;
@@ -137,7 +145,7 @@ Soundboard Sections
 }
 .brd-btn p {
   margin: 0;
-  padding: 16px 0;
+  padding: 16px 3px;
 }
 .brd-btn:hover {
   background-color: #fff;
@@ -146,6 +154,16 @@ Soundboard Sections
   color: #000;
 }
 
+/* Grid */
+@supports (grid-area: auto) {
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 7px 0;
+  }
+}
+
+
 /*
 Footer
 -----------------------------------*/
@@ -153,13 +171,22 @@ Footer
 footer {
   background-color: var(--deep-sky-blue);
   padding: 20px;
-}
-footer p, footer li {
-  color: #fff;
+  text-align: center;
 }
 footer ul {
-  margin: 0;
+  padding: 0;
 }
 footer li {
   list-style-type: none;
+  display: inline;
+  padding: 0 25px;
+}
+footer a {
+  text-decoration: none;
+}
+footer a:hover {
+  text-decoration: underline;
+}
+
+@media (min-width: 768px) {
 }
