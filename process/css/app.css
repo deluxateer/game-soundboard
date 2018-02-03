@@ -21,7 +21,7 @@ https://coolors.co/ffc70e-f99e1a-43484c-00c3ff-b2b0b0
 }
 
 /*
-Global stylesheet
+Global Styles
 -----------------------------------*/
 
 *, *:before, *:after {
@@ -40,9 +40,8 @@ html {
     linear-gradient(207deg, #222 5px, transparent 5px) 10px 5px,
     linear-gradient(90deg, #1b1b1b 10px, transparent 10px),
     linear-gradient(#1d1d1d 25%, #1a1a1a 25%, #1a1a1a 50%, transparent 50%, transparent 75%, #242424 75%, #242424);
-    background-color: #131313;
-    /* background-color: var(--outer-space); */
-    background-size: 20px 20px;
+  background-color: #131313;
+  background-size: 20px 20px;
   margin: 0;
 }
 h1, h2, h3,
@@ -189,4 +188,15 @@ footer a:hover {
 }
 
 @media (min-width: 768px) {
+  /*
+  Global Styles
+  -----------------------------------*/
+  .site {
+    background: linear-gradient(rgba(67, 72, 76, .6), rgba(67, 72, 76, .4)), url(../images/zenyatta-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .tab {
+    display: none;
+  }
 }

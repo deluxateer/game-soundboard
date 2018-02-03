@@ -1,29 +1,40 @@
-function openCity(evt, cityName) {
 
-    // Get all elements with class="tabcontent" and hide them
-    const tabcontent = document.querySelectorAll('.tabcontent');
+const tablinks = document.querySelectorAll('.tablinks');
+const tabcontent = document.querySelectorAll('.tabcontent');
+let currSection;
+
+function clearActive() {
+  tablinks.forEach(tab => { tab.className = tab.className.replace(" active", ""); });
+}
+
+function openSection(evt, section) {
+  currSection = section;
+
+  // Get all elements with class="tabcontent" and hide them
+  tabcontent.forEach(tab => { tab.style.display = "none"; });
+
+  // Get all elements with class="tablinks" and remove the class "active"
+  clearActive();
+
+  // Show the current tab, and add an "active" class to the button that opened the tab
+  document.querySelector(`#${section}`).style.display = "block";
+  evt.currentTarget.className += " active";
+}
+
+tablinks.forEach(tab => {
+  tab.addEventListener("click", function(e) { openSection(e, tab.innerHTML); });
+});
+
+window.onresize = function() {
+  if (window.innerWidth >= 768) {
+    clearActive();
     tabcontent.forEach(tab => {
-      tab.style.display = "none";
+      tab.style.display = "block";
     });
-
-    // Get all elements with class="tablinks" and remove the class "active"
-    const tablinks = document.querySelectorAll('.tablinks');
-    tablinks.forEach(tab => {
-      tab.className = tab.className.replace(" active", "");
-    });
-
-    // Show the current tab, and add an "active" class to the button that opened the tab
-    document.querySelector(`#${cityName}`).style.display = "block";
-    evt.currentTarget.className += " active";
+  } else {
+    document.querySelector(`[data-name='${currSection}']`).click();
   }
+};
 
-  const buttons = document.querySelectorAll('.tab button');
-
-  buttons.forEach(button => {
-    button.addEventListener("click", function(e) {
-      openCity(e, button.innerHTML);
-    });
-  });
-
-  // Get the element with id="defaultOpen" and click on it
-  document.getElementById("defaultOpen").click();
+// Get the element with id="defaultOpen" and click on it
+document.getElementById("defaultOpen").click();
