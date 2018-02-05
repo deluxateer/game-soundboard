@@ -10,17 +10,31 @@
   <!-- <div class="loader"></div> -->
   <div class="container">
     <header>
-      <h1 class="game-title">SoundBoard - Overwatch</h1>
+      <script id="headerTemplate" type="text/handlebars-template">
+        <h1 class="game-title">SoundBoard - {{game-title}}</h1>
+        <img class="character-icon" src="{{character-icon}}" alt="{{character-name}} Icon">
+        <h2 class="character-name">{{character-name}}</h2>
+      </script>
+      <!-- <h1 class="game-title">SoundBoard - Overwatch</h1>
       <img class="character-icon" src="images/zenyatta-icon.png" alt="Zenyatta Icon">
-      <h2 class="character-name">Zenyatta</h2>
+      <h2 class="character-name">Zenyatta</h2> -->
     </header>
     <main>
       <nav>
         <!-- Tab links -->
         <div class="tab">
-          <button class="tablinks" data-name="Intro" id="defaultOpen">Intro</button>
+          <!-- <button class="tablinks" data-name="Intro" id="defaultOpen">Intro</button>
           <button class="tablinks" data-name="Surprise">Surprise</button>
-          <button class="tablinks" data-name="Non-Verbal">Non-Verbal</button>
+          <button class="tablinks" data-name="Non-Verbal">Non-Verbal</button> -->
+          <script id="tabTemplate" type="text/handlebars-template">
+            {{#each tabs}}
+              {{#if @first}}
+                <button class="tablinks" data-name="{{tab}}" id="defaultOpen">{{tab}}</button>
+              {{else}}
+                <button class="tablinks" data-name="{{tab}}">{{tab}}</button>
+              {{/if}}
+            {{/each}}
+          </script>
         </div>
       </nav>
 

@@ -163,7 +163,7 @@ Soundboard Sections
 .brd-btn:hover {
   background-color: #fff;
 }
-.brd-btn p:hover {
+.brd-btn:hover p {
   color: #000;
 }
 

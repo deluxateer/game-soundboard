@@ -11,7 +11,7 @@ var gulp = require('gulp'),
 
 var src = './process',
     dest = './app',
-    env = 'production';
+    env = 'development';
 
 gulp.task('css', function () {
   gulp.src(`${src}/css/app.css`)
