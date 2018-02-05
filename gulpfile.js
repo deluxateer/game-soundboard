@@ -2,10 +2,10 @@ var gulp = require('gulp'),
     gutil = require('gulp-util'),
     concat = require('gulp-concat'),
     browserify = require('gulp-browserify'),
-    cleanCss = require('gulp-clean-css')
-    gulpif = require('gulp-if')
-    uglify = require('gulp-uglify')
-    pump = require('pump')
+    cleanCss = require('gulp-clean-css'),
+    gulpif = require('gulp-if'),
+    uglify = require('gulp-uglify'),
+    pump = require('pump'),
     babel = require('gulp-babel'),
     webserver = require('gulp-webserver');
 
@@ -22,6 +22,7 @@ gulp.task('css', function () {
 gulp.task('js', function (cb) {
   pump([
         gulp.src(`${src}/js/*.js`),
+        browserify(),
         babel({ presets: ['es2015'] }),
         concat('app.js').on('error', function(err){
           console.error('Error!', err.message)

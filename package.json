@@ -26,7 +26,9 @@
     "gulp-util": "^3.0.8",
     "gulp-webserver": "^0.9.1",
     "jquery": "^3.3.1",
-    "mustache": "^2.3.0",
     "pump": "^2.0.1"
+  },
+  "dependencies": {
+    "handlebars": "^4.0.11"
   }
 }
