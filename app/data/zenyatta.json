@@ -2,16 +2,51 @@
   "character-name": "Zenyatta",
   "game-title": "Overwatch",
   "character-icon": "images/zenyatta-icon.png",
-  "legal": "<p>All audio, images, and fonts are property of Blizzard Entertainment. You can download Overwatch at their site <a href='https://playoverwatch.com'>here.</a></p>",
-  "tabs": [
-    {
-      "tab": "Intro"
-    },
-    {
-      "tab": "Surprise"
-    },
-    {
-      "tab": "Non-Verbal"
-    }
-  ]
+  "company": "Blizzard Entertainment",
+  "company-url": "https://playoverwatch.com",
+  "tabs":
+    [
+      {
+        "tab": "Intro",
+        "audio":
+          [
+            "the-iris-embraces-you",
+            "aahh",
+            "capture-objective",
+            "i-am-here",
+            "setback-temporary",
+            "reflect-on-your-actions",
+            "recover-our-flag",
+            "the-wheel-turns",
+            "we-are-in-harmony",
+            "this-way",
+            "setback-temporary",
+            "reflect-on-your-actions"
+          ]
+      },
+      {
+        "tab": "Surprise",
+        "audio":
+          [
+            "eliminate-target",
+            "my-spirit-is-strong",
+            "require-healing",
+            "systems-repaired",
+            "this-life-not-finished",
+            "past-successes-strive-more"
+          ]
+      },
+      {
+        "tab": "Non-Verbal",
+        "audio":
+          [
+            "on-my-way",
+            "ready",
+            "enemy-using-shield",
+            "this-is-our-path",
+            "time-illusion-run-out",
+            "present-in-the-moment"
+          ]
+      }
+    ]
 }

@@ -1,5 +1,8 @@
 
-window.onload = function() {
+// var $ = require ('jquery');
+
+window.addEventListener("load", function(){
+  // $(document).ready(function() {
   const tablinks = document.querySelectorAll('.tablinks');
   const tabcontent = document.querySelectorAll('.tabcontent');
   let currSection;
@@ -24,16 +27,18 @@ window.onload = function() {
 
   tablinks.forEach(tab => {
     tab.addEventListener("click", function(e) { openSection(e, tab.innerHTML); });
+    // console.log('tab listeners hooked');
+    // });
+
+    // window.onresize = function() {
+    //   clearActive();
+    //   tabcontent.forEach(tab => {
+    //     tab.style.display = "block";
+    //   });
+    //   document.querySelector(`[data-name='${currSection}']`).click();
+    // };
+
+    // Get the element with id="defaultOpen" and click on it
+    document.getElementById("defaultOpen").click();
   });
-
-  // window.onresize = function() {
-  //   clearActive();
-  //   tabcontent.forEach(tab => {
-  //     tab.style.display = "block";
-  //   });
-  //   document.querySelector(`[data-name='${currSection}']`).click();
-  // };
-
-  // Get the element with id="defaultOpen" and click on it
-  document.getElementById("defaultOpen").click();
-};
+},false);

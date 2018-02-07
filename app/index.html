@@ -38,123 +38,25 @@
         </div>
       </nav>
 
-      <div id="Intro" class="tabcontent">
-        <h3>Intro</h3>
-        <div class="grid">
+      <script id="sectionTemplate" type="text/handlebars-template">
+        {{#each tabs}}
+        <div id="{{tab}}" class="tabcontent">
+          <h3>{{tab}}</h3>
+          {{#each audio}}
           <div class="brd-btn">
-            <p class="btn-text">Iris Embraces</p>
-            <audio class="track" data src="audio/zenyatta/the-iris-embraces-you.ogg"></audio>
-          </div><!-- brd-btn -->
-          <div class="brd-btn">
-            <p class="btn-text">Aahh</p>
-            <audio class="track" src="audio/zenyatta/aahh.ogg"></audio>
+            <p class="btn-text">{{this}}</p>
+            <audio class="track" data src="audio/zenyatta/{{this}}.ogg"></audio>
           </div>
-          <div class="brd-btn">
-            <p class="btn-text">Capture Objective</p>
-            <audio class="track" src="audio/zenyatta/capture-objective.ogg"></audio>
-          </div>
-          <div class="brd-btn">
-            <p class="btn-text">I am Here</p>
-            <audio class="track" src="audio/zenyatta/i-am-here.ogg"></audio>
-          </div>
-          <div class="brd-btn">
-            <p class="btn-text">Setback Temporary</p>
-            <audio class="track" src="audio/zenyatta/setback-temporary.ogg"></audio>
-          </div>
-          <div class="brd-btn">
-            <p class="btn-text">Reflect on Your Actions</p>
-            <audio class="track" src="audio/zenyatta/reflect-on-your-actions.ogg"></audio>
-          </div>
-        </div><!-- grid -->
-        <div class="grid">
-          <div class="brd-btn">
-            <p class="btn-text">Recover Our Flag</p>
-            <audio class="track" data src="audio/zenyatta/recover-our-flag.ogg"></audio>
-          </div><!-- brd-btn -->
-          <div class="brd-btn">
-            <p class="btn-text">The Wheel Turns</p>
-            <audio class="track" src="audio/zenyatta/the-wheel-turns.ogg"></audio>
-          </div>
-          <div class="brd-btn">
-            <p class="btn-text">We are In Harmony</p>
-            <audio class="track" src="audio/zenyatta/we-are-in-harmony.ogg"></audio>
-          </div>
-          <div class="brd-btn">
-            <p class="btn-text">This Way</p>
-            <audio class="track" src="audio/zenyatta/this-way.ogg"></audio>
-          </div>
-          <div class="brd-btn">
-            <p class="btn-text">Setback Temporary</p>
-            <audio class="track" src="audio/zenyatta/setback-temporary.ogg"></audio>
-          </div>
-          <div class="brd-btn">
-            <p class="btn-text">Reflect on Your Actions</p>
-            <audio class="track" src="audio/zenyatta/reflect-on-your-actions.ogg"></audio>
-          </div>
-        </div><!-- grid -->
-      </div><!-- tabcontent -->
-      <div id="Surprise" class="tabcontent">
-        <h3>Surprise</h3>
-        <div class="grid">
-          <div class="brd-btn">
-            <p class="btn-text">Eliminate Target</p>
-            <audio class="track" data src="audio/zenyatta/eliminate-target.ogg"></audio>
-          </div><!-- brd-btn -->
-          <div class="brd-btn">
-            <p class="btn-text">My Spirit Is Strong</p>
-            <audio class="track" src="audio/zenyatta/my-spirit-is-strong.ogg"></audio>
-          </div>
-          <div class="brd-btn">
-            <p class="btn-text">Require Healing</p>
-            <audio class="track" src="audio/zenyatta/require-healing.ogg"></audio>
-          </div>
-          <div class="brd-btn">
-            <p class="btn-text">Systems Repaired</p>
-            <audio class="track" src="audio/zenyatta/systems-repaired.ogg"></audio>
-          </div>
-          <div class="brd-btn">
-            <p class="btn-text">This Life Not Finished</p>
-            <audio class="track" src="audio/zenyatta/this-life-not-finished.ogg"></audio>
-          </div>
-          <div class="brd-btn">
-            <p class="btn-text">Past Successes Strive More</p>
-            <audio class="track" src="audio/zenyatta/past-successes-strive-more.ogg"></audio>
-          </div>
-        </div><!-- grid -->
-      </div><!-- tabcontent -->
-      <div id="Non-Verbal" class="tabcontent">
-        <h3>Non-Verbal</h3>
-        <div class="grid">
-          <div class="brd-btn">
-            <p class="btn-text">On My Way</p>
-            <audio class="track" data src="audio/zenyatta/on-my-way.ogg"></audio>
-          </div><!-- brd-btn -->
-          <div class="brd-btn">
-            <p class="btn-text">Ready</p>
-            <audio class="track" src="audio/zenyatta/ready.ogg"></audio>
-          </div>
-          <div class="brd-btn">
-            <p class="btn-text">Enemy Using Shield Gen</p>
-            <audio class="track" src="audio/zenyatta/enemy-using-shield.ogg"></audio>
-          </div>
-          <div class="brd-btn">
-            <p class="btn-text">This Is Our Path</p>
-            <audio class="track" src="audio/zenyatta/this-is-our-path.ogg"></audio>
-          </div>
-          <div class="brd-btn">
-            <p class="btn-text">Time Illusion Run Out</p>
-            <audio class="track" src="audio/zenyatta/time-illusion-run-out.ogg"></audio>
-          </div>
-          <div class="brd-btn">
-            <p class="btn-text">Present In The Moment</p>
-            <audio class="track" src="audio/zenyatta/present-in-the-moment.ogg"></audio>
-          </div>
-        </div><!-- grid -->
-      </div><!-- tabcontent -->
+          {{/each}}
+        </div><!-- tabcontent -->
+        {{/each}}
+      </script>
     </main>
   </div>
   <footer>
-    <p>All audio, images, and fonts are property of Blizzard Entertainment. You can download Overwatch at their site <a href="https://playoverwatch.com">here.</a></p>
+    <script id="legalTemplate" type="text/handlebars-template">
+      <p>All audio, images, and fonts are property of {{company}}. To learn more about {{game-title}}, please visit their site <a target="_blank" href='{{company-url}}'>here.</a></p>
+    </script>
     <p>SoundBoard by ***REMOVED***</p>
     <ul>
       <li><a href="https://github.com/***REMOVED***">Github</a></li>

@@ -22,6 +22,7 @@ gulp.task('css', function () {
 gulp.task('js', function (cb) {
   pump([
         gulp.src(`${src}/js/*.js`),
+        // gulp.src([`${src}/js/app.js`, `${src}/js/tabs.js`, `${src}/js/play-sound.js`]),
         browserify(),
         babel({ presets: ['es2015'] }),
         concat('app.js').on('error', function(err){
