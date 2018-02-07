@@ -4,6 +4,7 @@
   "character-icon": "images/zenyatta-icon.png",
   "company": "Blizzard Entertainment",
   "company-url": "https://playoverwatch.com",
+  "bg-image": "../images/zenyatta-1.png",
   "tabs":
     [
       {
@@ -48,5 +49,24 @@
             "present-in-the-moment"
           ]
       }
-    ]
+    ],
+  "styling":
+    {
+      "font-general": "overwatch",
+      "font-general-path": "../fonts/koverwatch.ttf",
+      "font-headers": "overwatch-italic",
+      "font-headers-path": "../fonts/bignoodletoo.ttf",
+      "bg-pattern": "linear-gradient(27deg, #151515 5px, transparent 5px) 0 5px,linear-gradient(207deg, #151515 5px, transparent 5px) 10px 0px,linear-gradient(27deg, #222 5px, transparent 5px) 0px 10px,linear-gradient(207deg, #222 5px, transparent 5px) 10px 5px,linear-gradient(90deg, #1b1b1b 10px, transparent 10px),linear-gradient(#1d1d1d 25%, #1a1a1a 25%, #1a1a1a 50%, transparent 50%, transparent 75%, #242424 75%, #242424)",
+      "body-color": "#131313",
+      "header-color": "#F99E1A",
+      "paragraph-color": "#fff",
+      "tab-color": "#FFC70E",
+      "tab-btn-hover": "#FFB20C",
+      "tab-btn-active": "#F99E1A",
+      "brd-btn-color": "rgba(178, 176, 176, .3)",
+      "brd-btn-border": "1px solid #fff",
+      "brd-btn-hover": "#fff",
+      "brd-btn-hover-p": "#000",
+      "footer-color": "#00C3FF"
+    }
 }

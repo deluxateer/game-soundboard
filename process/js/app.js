@@ -13,6 +13,17 @@ $(function() {
   });
 
   $.getJSON('/data/zenyatta.json', function(data){
+    // insert chracter name into title tag
+    $('title').text(function(){
+      return $('title').text().replace('character-name', data["character-name"]);
+    });
+
+    // render the css data
+    var styleTemplate = $('#styleTemplate').html();
+    var styleScript = Handlebars.compile(styleTemplate);
+    $('head').prepend(styleScript(data));
+
+    // render the html data
     var headerTemplate = $('#headerTemplate').html();
     var headerScript = Handlebars.compile(headerTemplate);
     $('header').append(headerScript(data));
@@ -27,10 +38,11 @@ $(function() {
 
     var legalTemplate = $('#legalTemplate').html();
     var legalScript = Handlebars.compile(legalTemplate);
-    console.log(legalScript(data));
     $('footer').prepend(legalScript(data));
 
+    // remove handlebar scripts
     $('script[type="text/handlebars-template"]').remove();
+
   });
 
   $.ajaxSetup({

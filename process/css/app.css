@@ -1,24 +1,44 @@
 
-@font-face {
+/* @font-face {
   font-family: 'overwatch';
   src: url(../fonts/koverwatch.ttf);
 }
 @font-face {
   font-family: 'overwatch-italic';
   src: url(../fonts/bignoodletoo.ttf);
-}
+} */
 
 /*
 Overwatch Color Theme:
 https://coolors.co/ffc70e-f99e1a-43484c-00c3ff-b2b0b0
 */
-:root {
+/* :root {
   --mikado-yellow:  #FFC70E;
   --bright-yellow:  #F99E1A;
   --outer-space:    #43484C;
   --deep-sky-blue:  #00C3FF;
   --silver-chalice: #B2B0B0;
-}
+
+  --font-general: 'overwatch';
+  --font-headers: 'overwatch-italic';
+  --bg-pattern: linear-gradient(27deg, #151515 5px, transparent 5px) 0 5px,
+  linear-gradient(207deg, #151515 5px, transparent 5px) 10px 0px,
+  linear-gradient(27deg, #222 5px, transparent 5px) 0px 10px,
+  linear-gradient(207deg, #222 5px, transparent 5px) 10px 5px,
+  linear-gradient(90deg, #1b1b1b 10px, transparent 10px),
+  linear-gradient(#1d1d1d 25%, #1a1a1a 25%, #1a1a1a 50%, transparent 50%, transparent 75%, #242424 75%, #242424);
+  --body-color: #131313;
+  --header-color: var(--bright-yellow);
+  --paragraph-color: #fff;
+  --tab-color: var(--mikado-yellow);
+  --tab-btn-hover: #FFB20C;
+  --tab-btn-active: var(--bright-yellow);
+  --brd-btn-color: rgba(178, 176, 176, .3);
+  --brd-btn-border: 1px solid #fff;
+  --brd-btn-hover: #fff;
+  --brd-btn-hover-p: #000;
+  --footer-color: var(--deep-sky-blue);
+} */
 
 /*
 Global Styles
@@ -31,26 +51,20 @@ html {
   font-size: 16px;
 }
 .site {
-  font-family: 'overwatch', sans-serif;
-  background:
-  linear-gradient(27deg, #151515 5px, transparent 5px) 0 5px,
-  linear-gradient(207deg, #151515 5px, transparent 5px) 10px 0px,
-  linear-gradient(27deg, #222 5px, transparent 5px) 0px 10px,
-  linear-gradient(207deg, #222 5px, transparent 5px) 10px 5px,
-  linear-gradient(90deg, #1b1b1b 10px, transparent 10px),
-  linear-gradient(#1d1d1d 25%, #1a1a1a 25%, #1a1a1a 50%, transparent 50%, transparent 75%, #242424 75%, #242424);
-  background-color: #131313;
+  font-family: var(--font-general), sans-serif;
+  background: var(--bg-pattern);
+  background-color: var(--body-color);
   background-size: 20px 20px;
   margin: 0;
 }
 h1, h2, h3,
 h4, h5, h6 {
-  font-family: 'overwatch-italic', helvetica;
-  color: var(--bright-yellow);
+  font-family: var(--font-headers), helvetica;
+  color: var(--header-color);
   margin: 0;
 }
 p {
-  color: #fff;
+  color: var(--paragraph-color);
 }
 img {
   display: block;
@@ -117,13 +131,13 @@ h3 {
 }
 .tab {
   overflow: hidden;
-  background-color: var(--mikado-yellow);
+  background-color: var(--tab-color);
 }
 /* Style the buttons that are used to open the tab content */
 .tab button {
   background-color: inherit;
   float: left;
-  font-family: 'overwatch', sans-serif;
+  font-family: var(--font-general), sans-serif;
   font-size: 1.3rem;
   outline: none;
   cursor: pointer;
@@ -132,11 +146,11 @@ h3 {
 }
 /* Change background color of buttons on hover */
 .tab button:hover {
-  background-color: #FFB20C;
+  background-color: var(--tab-btn-hover);
 }
 /* Create an active/current tablink class */
 .tab button.active {
-  background-color: var(--bright-yellow);
+  background-color: var(--tab-btn-active);
 }
 /* Style the tab content */
 .tabcontent {
@@ -153,18 +167,18 @@ Soundboard Sections
 .brd-btn {
   width: 85%;
   margin: 8px auto;
-  background-color: rgba(178, 176, 176, .3);
-  border: 1px solid #fff;
+  background-color: var(--brd-btn-color);
+  border: var(--brd-btn-border);
 }
 .brd-btn p {
   margin: 0;
   padding: 16px 3px;
 }
 .brd-btn:hover {
-  background-color: #fff;
+  background-color: var(--brd-btn-hover);
 }
 .brd-btn:hover p {
-  color: #000;
+  color: var(--brd-btn-hover-p);
 }
 
 /* Grid */
@@ -182,7 +196,7 @@ Footer
 -----------------------------------*/
 
 footer {
-  background-color: var(--deep-sky-blue);
+  background-color: var(--footer-color);
   padding: 20px;
   text-align: center;
 }
@@ -203,13 +217,14 @@ footer a:hover {
 
 @media (min-width: 768px) {
   .site {
-    background: linear-gradient(rgba(67, 72, 76, .6), rgba(67, 72, 76, .4)), url(../images/zenyatta-1.jpg);
+    background: linear-gradient(rgba(67, 72, 76, .6), rgba(67, 72, 76, .4)), var(--bg-image);
+    background-position: 80% 50%;
     background-repeat: no-repeat;
     background-size: cover;
   }
   header {
     float: left;
-    margin: 0 35px 25px 0;
+    margin: 0 35px 13px 0;
     padding-bottom: 0;
   }
   .game-title {
