@@ -12,7 +12,7 @@
     <header>
       <script id="headerTemplate" type="text/handlebars-template">
         <h1 class="game-title">SoundBoard - {{game-title}}</h1>
-        <img class="character-icon" src="{{character-icon}}" alt="{{character-name}} Icon">
+        <img class="character-icon" src="https://drive.google.com/uc?export=download&id={{character-icon}}" alt="{{character-name}} Icon">
         <h2 class="character-name">{{character-name}}</h2>
       </script>
       <script id="styleTemplate" type="text/handlebars-template">
@@ -29,7 +29,7 @@
             --font-general: '{{styling.font-general}}';
             --font-headers: '{{styling.font-headers}}';
             --bg-pattern: {{styling.bg-pattern}};
-            --bg-image: url({{bg-image}});
+            --bg-image: url("https://drive.google.com/uc?export=download&id={{bg-image}}");
             --body-color: {{styling.body-color}};
             --header-color: {{styling.header-color}};
             --paragraph-color: {{styling.paragraph-color}};
@@ -67,8 +67,8 @@
           <h3>{{tab}}</h3>
           {{#each audio}}
           <div class="brd-btn">
-            <p class="btn-text">{{this}}</p>
-            <audio class="track" data src="audio/{{../../character-name}}/{{this}}.ogg"></audio>
+            <p class="btn-text">{{this.audio-title}}</p>
+            <audio class="track" data src="{{this.audio-path}}"></audio>
           </div>
           {{/each}}
         </div><!-- tabcontent -->

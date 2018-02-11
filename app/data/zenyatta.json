@@ -1,55 +1,10 @@
 {
   "character-name": "Zenyatta",
   "game-title": "Overwatch",
-  "character-icon": "images/zenyatta-icon.png",
+  "character-icon": "1b-rQHXE9acFLujbQgL3jva5iGI-ScQJR",
   "company": "Blizzard Entertainment",
   "company-url": "https://playoverwatch.com",
-  "bg-image": "../images/zenyatta-1.png",
-  "tabs":
-    [
-      {
-        "tab": "Intro",
-        "audio":
-          [
-            "the-iris-embraces-you",
-            "aahh",
-            "capture-objective",
-            "i-am-here",
-            "setback-temporary",
-            "reflect-on-your-actions",
-            "recover-our-flag",
-            "the-wheel-turns",
-            "we-are-in-harmony",
-            "this-way",
-            "setback-temporary",
-            "reflect-on-your-actions"
-          ]
-      },
-      {
-        "tab": "Surprise",
-        "audio":
-          [
-            "eliminate-target",
-            "my-spirit-is-strong",
-            "require-healing",
-            "systems-repaired",
-            "this-life-not-finished",
-            "past-successes-strive-more"
-          ]
-      },
-      {
-        "tab": "Non-Verbal",
-        "audio":
-          [
-            "on-my-way",
-            "ready",
-            "enemy-using-shield",
-            "this-is-our-path",
-            "time-illusion-run-out",
-            "present-in-the-moment"
-          ]
-      }
-    ],
+  "bg-image": "1saT71LZVA2OOLMaGi7FZ977TsHcU1fTq",
   "styling":
     {
       "font-general": "overwatch",
@@ -63,10 +18,461 @@
       "tab-color": "#FFC70E",
       "tab-btn-hover": "#FFB20C",
       "tab-btn-active": "#F99E1A",
-      "brd-btn-color": "rgba(178, 176, 176, .3)",
+      "brd-btn-color": "rgba(178, 176, 176, .5)",
       "brd-btn-border": "1px solid #fff",
       "brd-btn-hover": "#fff",
       "brd-btn-hover-p": "#000",
       "footer-color": "#00C3FF"
-    }
+    },
+  "tabs":
+    [
+      {
+        "tab": "Abilities",
+        "audio":
+          [
+            {
+              "audio-title": "pass-into-iris",
+              "audio-path": "https://api.soundcloud.com/tracks/397503120/download?secret_token=s-JS5Jg&client_id=DQskPX1pntALRzMp4HSxya3Mc0AO66Ro"
+            },
+            {
+              "audio-title": "gaze-into-iris",
+              "audio-path": "https://api.soundcloud.com/tracks/397503138/download?secret_token=s-1lD4E&client_id=DQskPX1pntALRzMp4HSxya3Mc0AO66Ro"
+            },
+            {
+              "audio-title": "stare-into-iris",
+              "audio-path": "https://api.soundcloud.com/tracks/397503114/download?secret_token=s-BWrfb&client_id=DQskPX1pntALRzMp4HSxya3Mc0AO66Ro"
+            },
+            {
+              "audio-title": "experience-tranquility",
+              "audio-path": "https://api.soundcloud.com/tracks/397503147/download?secret_token=s-nxxux&client_id=DQskPX1pntALRzMp4HSxya3Mc0AO66Ro"
+            },
+            {
+              "audio-title": "embrace-tranquility",
+              "audio-path": "https://api.soundcloud.com/tracks/397503150/download?secret_token=s-qGYqa&client_id=DQskPX1pntALRzMp4HSxya3Mc0AO66Ro"
+            },
+            {
+              "audio-title": "be-reborn",
+              "audio-path": "https://api.soundcloud.com/tracks/397503039/download?secret_token=s-JVG20&client_id=DQskPX1pntALRzMp4HSxya3Mc0AO66Ro"
+            },
+            {
+              "audio-title": "be-one-with-universe",
+              "audio-path": "https://api.soundcloud.com/tracks/397503045/download?secret_token=s-hGtUX&client_id=DQskPX1pntALRzMp4HSxya3Mc0AO66Ro"
+            },
+            {
+              "audio-title": "open-your-mind",
+              "audio-path": "https://api.soundcloud.com/tracks/397503126/download?secret_token=s-qDNOn&client_id=DQskPX1pntALRzMp4HSxya3Mc0AO66Ro"
+            },
+            {
+              "audio-title": "walk-in-harmony",
+              "audio-path": "https://api.soundcloud.com/tracks/397503096/download?secret_token=s-0Xgzl&client_id=DQskPX1pntALRzMp4HSxya3Mc0AO66Ro"
+            },
+            {
+              "audio-title": "we-are-as-one",
+              "audio-path": "https://api.soundcloud.com/tracks/397503093/download?secret_token=s-UlWzi&client_id=DQskPX1pntALRzMp4HSxya3Mc0AO66Ro"
+            },
+            {
+              "audio-title": "we-are-as-one-my-friend",
+              "audio-path": "https://api.soundcloud.com/tracks/397503078/download?secret_token=s-fhPUu&client_id=DQskPX1pntALRzMp4HSxya3Mc0AO66Ro"
+            },
+            {
+              "audio-title": "bask-in-shadow-doubt",
+              "audio-path": "https://api.soundcloud.com/tracks/397503057/download?secret_token=s-3RM7W&client_id=DQskPX1pntALRzMp4HSxya3Mc0AO66Ro"
+            },
+            {
+              "audio-title": "darkness-falls",
+              "audio-path": "https://api.soundcloud.com/tracks/397503159/download?secret_token=s-dQ2sg&client_id=DQskPX1pntALRzMp4HSxya3Mc0AO66Ro"
+            },
+            {
+              "audio-title": "chaos-within-you",
+              "audio-path": "https://api.soundcloud.com/tracks/397503162/download?secret_token=s-bff9M&client_id=DQskPX1pntALRzMp4HSxya3Mc0AO66Ro"
+            },
+            {
+              "audio-title": "disquiet-in-your-soul",
+              "audio-path": "https://api.soundcloud.com/tracks/397503153/download?secret_token=s-sJWgu&client_id=DQskPX1pntALRzMp4HSxya3Mc0AO66Ro"
+            },
+            {
+              "audio-title": "your-own-worst-enemy",
+              "audio-path": "https://api.soundcloud.com/tracks/397503066/download?secret_token=s-VqFs6&client_id=DQskPX1pntALRzMp4HSxya3Mc0AO66Ro"
+            },
+            {
+              "audio-title": "know-doubt-plague-you",
+              "audio-path": "https://api.soundcloud.com/tracks/397503129/download?secret_token=s-Adswn&client_id=DQskPX1pntALRzMp4HSxya3Mc0AO66Ro"
+            },
+            {
+              "audio-title": "you-have-much-to-learn",
+              "audio-path": "https://api.soundcloud.com/tracks/397503075/download?secret_token=s-dwe6x&client_id=DQskPX1pntALRzMp4HSxya3Mc0AO66Ro"
+            },
+            {
+              "audio-title": "greatest-enemy-lies-within",
+              "audio-path": "https://api.soundcloud.com/tracks/397503132/download?secret_token=s-1gRaU&client_id=DQskPX1pntALRzMp4HSxya3Mc0AO66Ro"
+            },
+            {
+              "audio-title": "ready-for-transcendence",
+              "audio-path": "https://api.soundcloud.com/tracks/397503117/download?secret_token=s-3izs6&client_id=DQskPX1pntALRzMp4HSxya3Mc0AO66Ro"
+            }
+          ]
+      },
+      {
+        "tab": "Eliminations",
+        "audio":
+          [
+            {
+              "audio-title": "lesson-in-humility",
+              "audio-path": "https://api.soundcloud.com/tracks/397518909/download?secret_token=s-XzOs5&client_id=DQskPX1pntALRzMp4HSxya3Mc0AO66Ro"
+            },
+            {
+              "audio-title": "begins-in-ignorance",
+              "audio-path": "https://api.soundcloud.com/tracks/397518966/download?secret_token=s-JuggI&client_id=DQskPX1pntALRzMp4HSxya3Mc0AO66Ro"
+            },
+            {
+              "audio-title": "hatred-not-strategy",
+              "audio-path": "https://soundcloud.com/su2206-audio/hatred-not-strategy/s-lIfOH?in=su2206-audio/sets/zenyatta-3/s-OXImo"
+            },
+            {
+              "audio-title": "you-do-not-bend-you-break",
+              "audio-path": "https://api.soundcloud.com/tracks/397518975/download?secret_token=s-0bUR6&client_id=DQskPX1pntALRzMp4HSxya3Mc0AO66Ro"
+            },
+            {
+              "audio-title": "anger-only-defeat-yourself",
+              "audio-path": "https://api.soundcloud.com/tracks/397518969/download?secret_token=s-PpSim&client_id=DQskPX1pntALRzMp4HSxya3Mc0AO66Ro"
+            },
+            {
+              "audio-title": "cannot-survive-on-strength-alone",
+              "audio-path": "https://api.soundcloud.com/tracks/397518960/download?secret_token=s-vP0aM&client_id=DQskPX1pntALRzMp4HSxya3Mc0AO66Ro"
+            },
+            {
+              "audio-title": "learn-from-your-mistakes",
+              "audio-path": "https://api.soundcloud.com/tracks/397518915/download?secret_token=s-DELs6&client_id=DQskPX1pntALRzMp4HSxya3Mc0AO66Ro"
+            },
+            {
+              "audio-title": "refuse-to-learn",
+              "audio-path": "https://api.soundcloud.com/tracks/397518882/download?secret_token=s-rGl6J&client_id=DQskPX1pntALRzMp4HSxya3Mc0AO66Ro"
+            },
+            {
+              "audio-title": "weakness-revealed",
+              "audio-path": "https://api.soundcloud.com/tracks/397518990/download?secret_token=s-w7ggX&client_id=DQskPX1pntALRzMp4HSxya3Mc0AO66Ro"
+            },
+            {
+              "audio-title": "reflect-upon-your-actions",
+              "audio-path": "https://api.soundcloud.com/tracks/397518888/download?secret_token=s-Othi5&client_id=DQskPX1pntALRzMp4HSxya3Mc0AO66Ro"
+            },
+            {
+              "audio-title": "win-this-round-genji",
+              "audio-path": "https://api.soundcloud.com/tracks/397518981/download?secret_token=s-wnEjP&client_id=DQskPX1pntALRzMp4HSxya3Mc0AO66Ro"
+            },
+            {
+              "audio-title": "master-still-has-a-few-tricks",
+              "audio-path": "https://api.soundcloud.com/tracks/397518900/download?secret_token=s-SdUEF&client_id=DQskPX1pntALRzMp4HSxya3Mc0AO66Ro"
+            },
+            {
+              "audio-title": "chaos-begets-more-chaos",
+              "audio-path": "https://api.soundcloud.com/tracks/397518957/download?secret_token=s-koWR9&client_id=DQskPX1pntALRzMp4HSxya3Mc0AO66Ro"
+            },
+            {
+              "audio-title": "move-too-quickly-overlook-much",
+              "audio-path": "https://api.soundcloud.com/tracks/397518894/download?secret_token=s-CVKao&client_id=DQskPX1pntALRzMp4HSxya3Mc0AO66Ro"
+            },
+            {
+              "audio-title": "justice-defined-by-hand-claims-it",
+              "audio-path": "https://api.soundcloud.com/tracks/397518918/download?secret_token=s-BPTBX&client_id=DQskPX1pntALRzMp4HSxya3Mc0AO66Ro"
+            },
+            {
+              "audio-title": "eager-to-learn-not-same-as-learning",
+              "audio-path": "https://api.soundcloud.com/tracks/397518954/download?secret_token=s-h2b0o&client_id=DQskPX1pntALRzMp4HSxya3Mc0AO66Ro"
+            },
+            {
+              "audio-title": "revenge-not-justice",
+              "audio-path": "https://api.soundcloud.com/tracks/397518876/download?secret_token=s-ipi7w&client_id=DQskPX1pntALRzMp4HSxya3Mc0AO66Ro"
+            },
+            {
+              "audio-title": "those-all-knowing-know-not-everything",
+              "audio-path": "https://api.soundcloud.com/tracks/397519008/download?secret_token=s-vf24s&client_id=DQskPX1pntALRzMp4HSxya3Mc0AO66Ro"
+            },
+            {
+              "audio-title": "ignorance-sure-path-failure",
+              "audio-path": "https://api.soundcloud.com/tracks/397518924/download?secret_token=s-BKEvD&client_id=DQskPX1pntALRzMp4HSxya3Mc0AO66Ro"
+            },
+            {
+              "audio-title": "joy-nor-remorse-amidst-death",
+              "audio-path": "https://api.soundcloud.com/tracks/397518921/download?secret_token=s-cqeUY&client_id=DQskPX1pntALRzMp4HSxya3Mc0AO66Ro"
+            },
+            {
+              "audio-title": "glimpse-of-mastery",
+              "audio-path": "https://api.soundcloud.com/tracks/397518939/download?secret_token=s-IiPEK&client_id=DQskPX1pntALRzMp4HSxya3Mc0AO66Ro"
+            },
+            {
+              "audio-title": "universe-shall-embrace-you",
+              "audio-path": "https://api.soundcloud.com/tracks/397519002/download?secret_token=s-0vHzC&client_id=DQskPX1pntALRzMp4HSxya3Mc0AO66Ro"
+            },
+            {
+              "audio-title": "a-pattern-developing",
+              "audio-path": "https://api.soundcloud.com/tracks/397519032/download?secret_token=s-pFr0j&client_id=DQskPX1pntALRzMp4HSxya3Mc0AO66Ro"
+            },
+            {
+              "audio-title": "turret-no-longer-exists",
+              "audio-path": "https://api.soundcloud.com/tracks/397519005/download?secret_token=s-ghWlx&client_id=DQskPX1pntALRzMp4HSxya3Mc0AO66Ro"
+            },
+            {
+              "audio-title": "teleporter-is-no-more",
+              "audio-path": "https://api.soundcloud.com/tracks/397519020/download?secret_token=s-yIPRO&client_id=DQskPX1pntALRzMp4HSxya3Mc0AO66Ro"
+            },
+            {
+              "audio-title": "shield-generator-destroyed",
+              "audio-path": "https://api.soundcloud.com/tracks/397519026/download?secret_token=s-7ucGu&client_id=DQskPX1pntALRzMp4HSxya3Mc0AO66Ro"
+            },
+            {
+              "audio-title": "the-tire-is-no-more",
+              "audio-path": "https://api.soundcloud.com/tracks/397519011/download?secret_token=s-gvqrw&client_id=DQskPX1pntALRzMp4HSxya3Mc0AO66Ro"
+            },
+            {
+              "audio-title": "lesson-in-humility",
+              "audio-path": "https://api.soundcloud.com/tracks/397518909/download?secret_token=s-XzOs5&client_id=DQskPX1pntALRzMp4HSxya3Mc0AO66Ro"
+            },
+            {
+              "audio-title": "cannot-survive-on-strength-alone",
+              "audio-path": "https://api.soundcloud.com/tracks/397518960/download?secret_token=s-vP0aM&client_id=DQskPX1pntALRzMp4HSxya3Mc0AO66Ro"
+            },
+            {
+              "audio-title": "refuse-to-learn",
+              "audio-path": "https://api.soundcloud.com/tracks/397518882/download?secret_token=s-rGl6J&client_id=DQskPX1pntALRzMp4HSxya3Mc0AO66Ro"
+            },
+            {
+              "audio-title": "well-done-genji",
+              "audio-path": "https://api.soundcloud.com/tracks/397518984/download?secret_token=s-It1xi&client_id=DQskPX1pntALRzMp4HSxya3Mc0AO66Ro"
+            },
+            {
+              "audio-title": "repetition-strive-for-perfection",
+              "audio-path": "https://api.soundcloud.com/tracks/397518879/download?secret_token=s-A9fyp&client_id=DQskPX1pntALRzMp4HSxya3Mc0AO66Ro"
+            },
+            {
+              "audio-title": "ushered-them-to-paradise",
+              "audio-path": "https://api.soundcloud.com/tracks/397518993/download?secret_token=s-5I258&client_id=DQskPX1pntALRzMp4HSxya3Mc0AO66Ro"
+            },
+            {
+              "audio-title": "hold-grudge-unhealthy",
+              "audio-path": "https://api.soundcloud.com/tracks/397518930/download?secret_token=s-aog4m&client_id=DQskPX1pntALRzMp4HSxya3Mc0AO66Ro"
+            },
+            {
+              "audio-title": "enemy-team-not-existence",
+              "audio-path": "https://api.soundcloud.com/tracks/397518945/download?secret_token=s-GoOI2&client_id=DQskPX1pntALRzMp4HSxya3Mc0AO66Ro"
+            },
+            {
+              "audio-title": "enemies-eliminated-will-return",
+              "audio-path": "https://api.soundcloud.com/tracks/397518948/download?secret_token=s-Ud0WX&client_id=DQskPX1pntALRzMp4HSxya3Mc0AO66Ro"
+            }
+          ]
+      },
+      {
+        "tab": "Non-Verbal",
+        "audio":
+          [
+            {
+              "audio-title": "attack-1",
+              "audio-path": "https://cf-media.sndcdn.com/NEGYg1rAJmUy.128.mp3?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiKjovL2NmLW1lZGlhLnNuZGNkbi5jb20vTkVHWWcxckFKbVV5LjEyOC5tcDMiLCJDb25kaXRpb24iOnsiRGF0ZUxlc3NUaGFuIjp7IkFXUzpFcG9jaFRpbWUiOjE1MTgyMjA1Nzl9fX1dfQ__&Signature=zQgYdZwk0TeH6s6IYb~Xxjii99j3dKR8HHE0CDDUI101sODRI8k3YWtvz0jVq153hxSE~90xAnxhkk2xpVMlH8-~DKCcmkOkYnKWQAKRudL-ySEiZhMAYa-mupPC8mo2myz2ILDVuQ3EwApnfqhNGt5YI1~am6HEftRtH-CzliIiEO2utg~ZDNn37BiWAjbe7hOUoxlKzx17zIRudNSBqZLjeo9ocDG9-eC8yR~DhlQiuS5rz54vNH6A6GSR35jiaBh78h~Pf-dDbSsouVEiRsitM0ISlHN4u4AuB4wIotiiln0ydZqilrHHgfnqgZ5U7vKe17XM9hVhDmYNOsYI0Q__&Key-Pair-Id=APKAJAGZ7VMH2PFPW6UQ"
+            },
+            {
+              "audio-title": "attack-2",
+              "audio-path": "https://cf-media.sndcdn.com/IB4fy7io7MhB.128.mp3?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiKjovL2NmLW1lZGlhLnNuZGNkbi5jb20vSUI0Znk3aW83TWhCLjEyOC5tcDMiLCJDb25kaXRpb24iOnsiRGF0ZUxlc3NUaGFuIjp7IkFXUzpFcG9jaFRpbWUiOjE1MTgyMjA1NjJ9fX1dfQ__&Signature=RNUxKUiRsQBaR-4ofV0Eh7c5~UgZzYDwC~HSEOS1q4Vy0AFVhmBMiy4oeB~bYDGaJM-k-qt3VXclQDyPg9wbn6hl-vKSxKlEcvgB42Yrq9yDyeyuv4UmP9EnAoYaGumkdVT9S1iCd9zXDUDsgu0mUmmoFGu0ARJcbp0V23IUk8LVlNkWT-Dk31nZ7vukv3HiLYfJDsy4uaW2BhmIQzN6sfEY~plt6Uqlzd-HXVBYSehJu3s9bGeOsXhXHu3m-V7E06WkUeIi61v0tiTOZyZrfBQNDlgtDYTpuxdT7vw4xfPegWlmrbV1ZRVSGZJs48ve03kgfdIrD28nbL5NORKjdA__&Key-Pair-Id=APKAJAGZ7VMH2PFPW6UQ"
+            },
+            {
+              "audio-title": "attack-3",
+              "audio-path": "https://cf-media.sndcdn.com/Zwv9Hslf4JES.128.mp3?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiKjovL2NmLW1lZGlhLnNuZGNkbi5jb20vWnd2OUhzbGY0SkVTLjEyOC5tcDMiLCJDb25kaXRpb24iOnsiRGF0ZUxlc3NUaGFuIjp7IkFXUzpFcG9jaFRpbWUiOjE1MTgyMjA1NDR9fX1dfQ__&Signature=RmiusVCZVaUsPCL1TsWjQOaXVd7dc~uX3q-2y63nIflzD0Wmk-lS5Y5NN-HP4dKaXLLmN533GNu4uD1RTMj70t7N4kkLestlaMdJMabvKWPkLcNIY-gwHS0lMTO4-N68CJNLPjjEg~b7sTPbWXNN27LeTd7Ti6Xg6K-4NsAq5I1yPZAoIy2gYvifoWQ3FQD~JgN1rsjPdrV4EZ8K40WGjG5RQQHeSt8BBC1iyvthhe8nTurFfCmI9qU9DBGbR4FmpEdn2IfTPzMlXr5bZaYLmpaVFjLgOlu9wthc-Z741G~jBwZ6jO1W9eBbjqHFxsT2IN4P26g-x0nbIzZJ2ipv3g__&Key-Pair-Id=APKAJAGZ7VMH2PFPW6UQ"
+            },
+            {
+              "audio-title": "damaged-1",
+              "audio-path": "https://cf-media.sndcdn.com/2majgY611l2Q.128.mp3?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiKjovL2NmLW1lZGlhLnNuZGNkbi5jb20vMm1hamdZNjExbDJRLjEyOC5tcDMiLCJDb25kaXRpb24iOnsiRGF0ZUxlc3NUaGFuIjp7IkFXUzpFcG9jaFRpbWUiOjE1MTgyMjA1MjF9fX1dfQ__&Signature=KMccZHIjsOw8wMN0svhBKTXuHQp19aom9W9dwcKY~5Lsk-VTkwl-OFn4SVB5Ljty1Nnzp0SBzqc7WrKjD92yZFj1HvjWL2~MKLsRoFzHEETVRzFPsr~NugF39NMH06THw~oogE8CNuq5EIXFMS8a3yxdJzkCLIgvSMlmHTjbRDOyGKPDTy7lf2TGV0DVh85CBpeB6i~YkoFFPYrVzwlSFIqFlH9p40DSbXOBJXeg5NliKoMuPfPGgLLoHxVMINoU9gakOZVSXmiEZpFF1YFiz-O0z9y1K539xtao5~ZycgIuVaM1X34iqinxKigxwvKaBN0E19555HevJkLwBOwMEA__&Key-Pair-Id=APKAJAGZ7VMH2PFPW6UQ"
+            },
+            {
+              "audio-title": "damaged-2",
+              "audio-path": "https://cf-media.sndcdn.com/WfkrWEaGuynT.128.mp3?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiKjovL2NmLW1lZGlhLnNuZGNkbi5jb20vV2ZrcldFYUd1eW5ULjEyOC5tcDMiLCJDb25kaXRpb24iOnsiRGF0ZUxlc3NUaGFuIjp7IkFXUzpFcG9jaFRpbWUiOjE1MTgyMjA0OTV9fX1dfQ__&Signature=MnK2n74FlsG33i-Ozgtl8witu7go~DqeDq3SpZ9D~6Em0jB8F~YOFpRykBuseVKEZc5gDrjBJWUe6KoIPKt2I-SRAp2yK8-fMKu0iwX~1zFOC4H9254J5JuEtNstxeobK~b4BZVQniqL6h8wFJPDicpP09yDUdMrLzA5uLqL5BWQC14E-MImbtmkvZLfLlDcDCTeQ4M5JLA85g5yGSOOC3zuy4gWxj85~NBqvkHsDHagGgP3AXSfWL6Uq5Zowhuw9Wf85CNgEzrdoT7ikewtBfw3jrol1fI2bDCb2ub4gB-S5ekkzhouDZ0aZ1P5DbrbllRxi46ugk8vZEuxRaK3wA__&Key-Pair-Id=APKAJAGZ7VMH2PFPW6UQ"
+            },
+            {
+              "audio-title": "damaged-3",
+              "audio-path": "https://cf-media.sndcdn.com/FzKXBQujLXJL.128.mp3?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiKjovL2NmLW1lZGlhLnNuZGNkbi5jb20vRnpLWEJRdWpMWEpMLjEyOC5tcDMiLCJDb25kaXRpb24iOnsiRGF0ZUxlc3NUaGFuIjp7IkFXUzpFcG9jaFRpbWUiOjE1MTgyMjA0NzR9fX1dfQ__&Signature=XzPCbAMtCCkCox0imx3LnhKCXppUa00isXuSW56wsZ5BzKpYe2fZYoNnfOcR2pxS3sLwKBdfJotj-qJyKK4LyCk7kUO7NRxitEzCcnNX0U0SO0r-1p4WGEAke61a2Fj68U~Eg5sfWdPdNU4Rm4-7YSInz8DDeN5ND0VN8BJJ62z6Kz3F0ZRnEa08Ye0DuVXpiHGcup1Op~xZA4nbjz~4jfYtsHidAIGm7gUUFb4KlaVgpll4L0hUON9zptVfNDj--vyUvcNysOSi4DcY8EQtgQQNopsti2Rhe70P7Ft9nA3XdiFyECG4OG3oZ8fSEgudMRbiLBLnYsRIobZGP~mNqA__&Key-Pair-Id=APKAJAGZ7VMH2PFPW6UQ"
+            },
+            {
+              "audio-title": "damaged-4",
+              "audio-path": "https://cf-media.sndcdn.com/UXCYIEC7pZNz.128.mp3?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiKjovL2NmLW1lZGlhLnNuZGNkbi5jb20vVVhDWUlFQzdwWk56LjEyOC5tcDMiLCJDb25kaXRpb24iOnsiRGF0ZUxlc3NUaGFuIjp7IkFXUzpFcG9jaFRpbWUiOjE1MTgyMjA0NTd9fX1dfQ__&Signature=jsgeTFioU0GwWKEi5gqmPW8CGL1r7NrIuSXrDVzfo1yJx7d5t4bCdErBbampmmVlRiuVRPw1o2sHN02KWZopKoMADHHccOlRibnkWzGBRrAGHYB9XHezP0wtdgHAFHM6G72N8ARbg9joVyNuGcD8rT0BK4xiB9p8kwyAzWU6ys4zsSZPBXQCrEaH9BvO8eOVJBbd9h5vHxfD2dbo87ij0NCGCdMMQvdp3CgYXcFiKdzKtGiooz67pTajL1gVH3-BO5zrUrLKq2zzbBqiMr-pji2D0hwv4h6wCHOg0NdVNWnYvKm40~52u~F7m0tSFUr6q7PvqDeimuqZ00jb0rLKOg__&Key-Pair-Id=APKAJAGZ7VMH2PFPW6UQ"
+            },
+            {
+              "audio-title": "dying",
+              "audio-path": "https://cf-media.sndcdn.com/0M1NzvqnAj8D.128.mp3?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiKjovL2NmLW1lZGlhLnNuZGNkbi5jb20vME0xTnp2cW5BajhELjEyOC5tcDMiLCJDb25kaXRpb24iOnsiRGF0ZUxlc3NUaGFuIjp7IkFXUzpFcG9jaFRpbWUiOjE1MTgyMjAzNzF9fX1dfQ__&Signature=swiOtbzLhbsHMEhs7PXlF7vHRbQJBInJpbFeBowNLFcpvwOz431VQo84-9M-0wOAlmcGOOqT1ErDkn6TF31BLfcCe8cg7Fy~xMlJUBR3XclStwzP7wg1QWX1KEgrCwB~ilT6tnKT-qAijVF0adge7jbPm7vjvCraPw~nk2l8rU9iXx3ED-RWaVaRsoU-d601e5hG3q1zwOi~EBnxqAYAFBsOVZXBjpsGv3Er5AHBaQjVbUgekrQqQ02pbPvpZtVXrxzZwu4MrP-Wgsl8iNRF1OpobjsC7pL34Qgzm71HaDz0Jo3Jd1qFmtqFAqo~GVT8fxiD0gGgsxKWCtSIqehDhg__&Key-Pair-Id=APKAJAGZ7VMH2PFPW6UQ"
+            },
+            {
+              "audio-title": "chuckle",
+              "audio-path": "https://cf-media.sndcdn.com/svho82f2AfTr.128.mp3?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiKjovL2NmLW1lZGlhLnNuZGNkbi5jb20vc3ZobzgyZjJBZlRyLjEyOC5tcDMiLCJDb25kaXRpb24iOnsiRGF0ZUxlc3NUaGFuIjp7IkFXUzpFcG9jaFRpbWUiOjE1MTgyMjAzNDN9fX1dfQ__&Signature=bqmYy-92wFjh81igiTFUFEZ63kksJ7TtHME4diclJHI-~inNVHaBm5fRnn89dmi3KXYUbUa6Ujpx1ldglje38H691h4BhC6XBsOIzw4I3Gy57CfnbiHaB8sPJ52cFf2iP1~euwMfcBUR3GoCWl6-5A2MDx7Z6ki~M0PClQMHFnrUp6jhr6aDxkBs-~mPaBr62s6k-ooiVkhK6rc5yg1rY8caRpAsANJM~guRJ7hDuOw5PPmQtyUst5QZLPK4PsAcn6a8bYOKBP2oWHeMp0-i~tRMkd6sa5xG0keIfa7x~zsSDAs55zDCzwvkfIe3ve-p3NMvv79orJSShtB1S0E97w__&Key-Pair-Id=APKAJAGZ7VMH2PFPW6UQ"
+            },
+            {
+              "audio-title": "laughing-1",
+              "audio-path": "https://cf-media.sndcdn.com/A1IOBbhyswOv.128.mp3?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiKjovL2NmLW1lZGlhLnNuZGNkbi5jb20vQTFJT0JiaHlzd092LjEyOC5tcDMiLCJDb25kaXRpb24iOnsiRGF0ZUxlc3NUaGFuIjp7IkFXUzpFcG9jaFRpbWUiOjE1MTgyMjAzMjF9fX1dfQ__&Signature=hnLjufg3iitIF8iITPWEtxRsFKD6jS9Y5Y8zJYwSnI-v~OE65VTB04FRKq~UUm66YGx1TAPpptc8ErMopAuBH7DZ6yi023c5iZYLFM~0qoXmjxzuB03SzvFGYt0P1cREaA8q3Pd1jU7FLbgtnDVJ8JdEF0BDW45ktEiWCVpenHqNUzC9RgSVB983CcT3LnmXQdGyLUohjtjHRLeVEuKqBJe7j2JEW-ZRRxKTX5vnLTE~Q~-qrX9MlB~knVlzBQtHS8vB4obJVe26FqKeUbAaYfVhZWu~8AiYb6uGF7~NkQu3vEgGMmQhWc0BasGuwjRrRhQI5Bg0rgymHageV85k6g__&Key-Pair-Id=APKAJAGZ7VMH2PFPW6UQ"
+            },
+            {
+              "audio-title": "laughing-2",
+              "audio-path": "https://cf-media.sndcdn.com/au2C1LxyDJ2R.128.mp3?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiKjovL2NmLW1lZGlhLnNuZGNkbi5jb20vYXUyQzFMeHlESjJSLjEyOC5tcDMiLCJDb25kaXRpb24iOnsiRGF0ZUxlc3NUaGFuIjp7IkFXUzpFcG9jaFRpbWUiOjE1MTgyMjAyODJ9fX1dfQ__&Signature=fHA28hhm~qxwFjgbz8cNGqlIdh5mH5HsrZoh~GjBz6vaijnwYxMR4NwV2pE-YIrxjTzMaYmr8lTHA8qY1lLfw6yYd5Mp9uUakPnkuDbhbbjEeqHcDgegk7cE35nPe2qeEe0eAHsPUTR6o~4OKKWvdcTAA4OS-IRKW4sYVUoI0K1Sr2mHlqkJSTy8Z5l4fOmWheT1e17S~Klp4lR90IUIYuQ-5Ta2KS4oANSigDvh9lPGDmObfYzOpALwtyVRITZHmyZTqAo2xcUvp2X~R8z~mG~5XprbLkN6X1WynjdtMLwHkhXxLi4qAs5Qg92DElaZwZOoesXwF60T9GnwcdaKRw__&Key-Pair-Id=APKAJAGZ7VMH2PFPW6UQ"
+            },
+            {
+              "audio-title": "deep-sigh",
+              "audio-path": "https://cf-media.sndcdn.com/8rf9yJfutWW1.128.mp3?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiKjovL2NmLW1lZGlhLnNuZGNkbi5jb20vOHJmOXlKZnV0V1cxLjEyOC5tcDMiLCJDb25kaXRpb24iOnsiRGF0ZUxlc3NUaGFuIjp7IkFXUzpFcG9jaFRpbWUiOjE1MTgyMjAyNDF9fX1dfQ__&Signature=qY~i9sSgsvPbp-cHDPdj2yAtvsxXNSDMJUfy4ZWj-yPcgVca8jM92GeLVYpLAlI2561kvOgIhHMZk~zFUnipSsunvJ8nxkVIHI1Z7FwBVa3sxUO~JFjVCpflA-7yXMiUX~R-JnXwcJsEmNSMZyxlqdnQgdD6BJkZUsTh21fysxJDy1ZA23dSOqdu~vkoNEGG2hpRuXwlLjPw7Wq5Q1IH33Qdujgd1~aArc~CCFrnw7nQghgXCclIETpdTxW8Mymrjn-B~P8mrU4uyGe~mRKbdwJHXZG8s54AQgdH54PHfzOSndaRYYjmX-c0~OPOH2ZmQsQsLszg~baryRdcDSOLLw__&Key-Pair-Id=APKAJAGZ7VMH2PFPW6UQ"
+            },
+            {
+              "audio-title": "coughing-1",
+              "audio-path": "https://cf-media.sndcdn.com/dHOYhKreahu4.128.mp3?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiKjovL2NmLW1lZGlhLnNuZGNkbi5jb20vZEhPWWhLcmVhaHU0LjEyOC5tcDMiLCJDb25kaXRpb24iOnsiRGF0ZUxlc3NUaGFuIjp7IkFXUzpFcG9jaFRpbWUiOjE1MTgyMjAyMTl9fX1dfQ__&Signature=kkl77j2i03r8gO6vjEqvmv2STuvS9nQyclWbTr0OV9I9SfVjdGNBCufJBZmXJekGrSfGop8wC~hySbQqR2wB3mQnaZEHNFnQMQBW7vV6wU535tpwCCAVoVfwxCloDOzgoAdSr1Vr~1BJGXsCAWpNm7ppKH75fTHIzGGbW~HlpaUtDY6lm9CYcn0yFrig-YzRY3NdiJwPghGQz5m-DibtYIDjnHxi42VjEtqHJWderZNUdIGKZwOsUSL0gdnDv4Xttw9wHRnPglunu1Dm84ddAnEqJcACv80WR7NP6yOeMH5sVctd73~HlXAxmrkWsLLefAox0zhhL4s7y5U9iWH5uw__&Key-Pair-Id=APKAJAGZ7VMH2PFPW6UQ"
+            },
+            {
+              "audio-title": "coughing-2",
+              "audio-path": "https://cf-media.sndcdn.com/882KMQPFRiIH.128.mp3?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiKjovL2NmLW1lZGlhLnNuZGNkbi5jb20vODgyS01RUEZSaUlILjEyOC5tcDMiLCJDb25kaXRpb24iOnsiRGF0ZUxlc3NUaGFuIjp7IkFXUzpFcG9jaFRpbWUiOjE1MTgyMjAxOTl9fX1dfQ__&Signature=Xe1WtEbr-Jix916kym-Iq0cWanl5KQuq8WAIuoRa7ZZ0nEeA0AUdE6QiXjOkbwp386mc-OiG3HJRV1Ao4NivcuRLBgkcEDqphkCqPkRqfGCBW2ebVuLm1XFhb9PrUw~qFgBFt7iqRuMAw4jhxKvind3LBwpB2ElW8SqNfBeTl-432Jdr71MSgkbOs-771go7GGING6bb3okJlXCUfT-ojeg0NR1oagg3yiRG1wqswV45VJ0-dqvExPag9HljswwGYrtnUxwh02x4d5KLB080ApzZOczaA0Y-kYOaeKq4Kp3n7OQmjymcP7T7QlLJPodCaV9eA53d05KGlBHtH1Keaw__&Key-Pair-Id=APKAJAGZ7VMH2PFPW6UQ"
+            },
+            {
+              "audio-title": "coughing-3",
+              "audio-path": "https://cf-media.sndcdn.com/OCbQmHwIjG4q.128.mp3?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiKjovL2NmLW1lZGlhLnNuZGNkbi5jb20vT0NiUW1Id0lqRzRxLjEyOC5tcDMiLCJDb25kaXRpb24iOnsiRGF0ZUxlc3NUaGFuIjp7IkFXUzpFcG9jaFRpbWUiOjE1MTgyMjAxNjV9fX1dfQ__&Signature=ZMe1Ouv-P0~TbjkyS2ZI~OWei0qDvpZVDLUbV-Ut0k-~aEqV2ASd1mA8WazA8cCGLlTwMGJMlujL97wspWhaB~oDv2GqCDcyFeZQQZ~erDBmXCBwghecx-wkokvKTXu1cySLTfmr6Kb6xM4PqfQvPpVQMNs0lxWvU49yzq7gXo~ThAAlSYDjdwZWZr8u0Aj9CmUnd7fz7Atj2XrE~VVnQmvslc4y2sL1XBj14NxAPIVf2RLt~tNOq3cRgHJviYG0FekRVSN4Dcai11DLZUDLv9qX-5CdQuaYbkAdTJbU1RrXChovIoMo~4vGCO~gHJ3LwmL-HDQcqthNkSja9BWm9g__&Key-Pair-Id=APKAJAGZ7VMH2PFPW6UQ"
+            },
+            {
+              "audio-title": "falling-1",
+              "audio-path": "https://cf-media.sndcdn.com/yxhuWS8DZFy9.128.mp3?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiKjovL2NmLW1lZGlhLnNuZGNkbi5jb20veXhodVdTOERaRnk5LjEyOC5tcDMiLCJDb25kaXRpb24iOnsiRGF0ZUxlc3NUaGFuIjp7IkFXUzpFcG9jaFRpbWUiOjE1MTgyMjAxNDd9fX1dfQ__&Signature=MXwZVPK0gDW2auPDIzLjmP0aAlOCTcfIpAymfp-ycZgt0Ly7r1UZeNlLPysUBt~qTf48cM9s5bZ3twp1huaHGFIyCt1N7m-kpCLq6IfGW3Pr8hQ76mxalKtmeqqmXfkJbJlo60K4SAjxEivCQKEtB55VZoT3imkZMgecwWfH95R~ipzB4wPuj5usk39UVywhU4qY9zAWl4RF1fcf3wHZAVmiZ-GSU0TXfWYjMVo39zlWIQF7wMF4KvU6Rru4j~ukkNhLiw4ahA6GkUQpaR2ysEHazzc5RpgZLAVMvXrELI5Dw0nVJh2tYensni8nBCp~85JAV8QjxV2ceavP~mufbg__&Key-Pair-Id=APKAJAGZ7VMH2PFPW6UQ"
+            },
+            {
+              "audio-title": "falling-2",
+              "audio-path": "https://cf-media.sndcdn.com/cqq7nQxJM3IK.128.mp3?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiKjovL2NmLW1lZGlhLnNuZGNkbi5jb20vY3FxN25ReEpNM0lLLjEyOC5tcDMiLCJDb25kaXRpb24iOnsiRGF0ZUxlc3NUaGFuIjp7IkFXUzpFcG9jaFRpbWUiOjE1MTgyMjAxMjZ9fX1dfQ__&Signature=W3vkBfpkBLP0DELhUwUn1LpiYEGCltIO7cMgaayF4JvZ76zkfqLFDhcYgMuQniQdvE8alVRZynOGwIxC6WyutJcQmPYzokHHt826dE5G86FWMO4iJGC3sRqRTR7Gf~F58oYtoPHJ-ohnmVTsNsocVg4TGm7m36oAXPrDjSgfQBlBc6yKVgGke2E~06AkrmwTuUk5YUeUumkNQCOCtyvZfwx~V~4Wql5WWVh4x2wfQt3gpfZDnwvCqRl8ovT5n-YnDY-lMElyYEUm03SL4sRIWk-PCJFbl-uvalsYDNm7lmIcaGxgBFvKpFxWnmTb12NkaPPoXGEbkVW4nfpOBGKriQ__&Key-Pair-Id=APKAJAGZ7VMH2PFPW6UQ"
+            },
+            {
+              "audio-title": "breathing",
+              "audio-path": "https://cf-media.sndcdn.com/A2X8ph8uhwOn.128.mp3?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiKjovL2NmLW1lZGlhLnNuZGNkbi5jb20vQTJYOHBoOHVod09uLjEyOC5tcDMiLCJDb25kaXRpb24iOnsiRGF0ZUxlc3NUaGFuIjp7IkFXUzpFcG9jaFRpbWUiOjE1MTgyMTk5OTV9fX1dfQ__&Signature=IrJYic87bHUWZuW1uS67rDjSi~g3urhNWHbylkPXYvwScjtAzgY~SkoikIEh6xup6dN8DT3rgyuq8PVtSmcBdpnxql8Hx3C~Zxc9LyWvVJnGuw5RjNrwX6Rmmacf2GHQfB3qalV3~POq5~IofeG8nbdOyRns--b3fi6zRiHIwTLkhpNEQPYXqXqk-2CStrBZ7vV0P22MBu6q8P-JjJUwTP98asMLAOzPtDroNQr0g8m7phrP9tudCsoaJeNmfjgmEHQtq4YzoX4KWgc7kxWWqDX8SkhCbRf6UCWD0lObLCxCjMLkwMdzc0ORg3a4V9kIYv2HtTw5Li8krjMG~xtWGw__&Key-Pair-Id=APKAJAGZ7VMH2PFPW6UQ"
+            },
+            {
+              "audio-title": "exhale",
+              "audio-path": "https://cf-media.sndcdn.com/q0zx7YrL4QhX.128.mp3?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiKjovL2NmLW1lZGlhLnNuZGNkbi5jb20vcTB6eDdZckw0UWhYLjEyOC5tcDMiLCJDb25kaXRpb24iOnsiRGF0ZUxlc3NUaGFuIjp7IkFXUzpFcG9jaFRpbWUiOjE1MTgyMTk5NzB9fX1dfQ__&Signature=wEoFjSZL1ieXCrIw2XZf4zqzt2RK6RrTu19b3CCaLVVkTLtr-oMI~h49zcbXKa9CNxuF-kf7bnAbkPRs2Rf22qd-UQUDl64R--JKkp8ebjyS6j2-tpO4s2sGTRNrAgkjdgp2QcMc570ciH6hNrs7nKmvVUj4HwxxM7v0Jt998AQ17UHxnhj3FtW6tM9x382LpInQAr4Jr0lTYZjX~K9WfMtjjk35QJG5-7iScb3L39IlqnMwKiRRkZ31h5gKDYkw-87XPuhx4C3-Ota5fhfubDoESq5gKuxXlQp~yPVX69gdxCZUi5AD7Y2XyWbsSxQxescwvdGZzjrWK6o0KJvnXQ__&Key-Pair-Id=APKAJAGZ7VMH2PFPW6UQ"
+            },
+            {
+              "audio-title": "inhale-exhale",
+              "audio-path": "https://cf-media.sndcdn.com/ycoFtGMfXEB5.128.mp3?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiKjovL2NmLW1lZGlhLnNuZGNkbi5jb20veWNvRnRHTWZYRUI1LjEyOC5tcDMiLCJDb25kaXRpb24iOnsiRGF0ZUxlc3NUaGFuIjp7IkFXUzpFcG9jaFRpbWUiOjE1MTgyMTk5NDN9fX1dfQ__&Signature=to14SvQklqhSN8-7bLTET7hCpfwCzsNzhQs7CyrZSzDz0yQOjKBcxiVGLdbyxMcEq0FIzQLD~eW0MPNS-a~Q5rAV2J1W8FdfPOfb4yf2woszf~ZWPzS5PdaBQoRr12mBpJv77mOgqmXQQSdNCYYCJxpmZPCyAbKYnd2xB0HIjLcCuVY9MvbHaIrvGWWUuvVNZvAICHrPSv0AF2L~ydWtyjP8hfb1nTRJ25iuL5S6H-3wf4RYX8LjRbFjqMP8SYDRrcRB5~QP9QwIfNy8-utJTz7xIfZBd6WB6CZLSYku-O8m-eiuAed34jXnYM8Q9lKWKGE7mOsMep6MJC2CfBnlcg__&Key-Pair-Id=APKAJAGZ7VMH2PFPW6UQ"
+            },
+            {
+              "audio-title": "ohm",
+              "audio-path": "https://cf-media.sndcdn.com/S1i8fYqQ0N5R.128.mp3?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiKjovL2NmLW1lZGlhLnNuZGNkbi5jb20vUzFpOGZZcVEwTjVSLjEyOC5tcDMiLCJDb25kaXRpb24iOnsiRGF0ZUxlc3NUaGFuIjp7IkFXUzpFcG9jaFRpbWUiOjE1MTgyMjQ2MDZ9fX1dfQ__&Signature=qMblHFAc9vDAzZRHiRcssr6cdBNStvAOwyK~wbcsWpgHsS3zAskBCfzBO2uZwep24xx~SXJdvUM67wTSwgA~H8NDj6yv34mJsHVEHlJ5VbylkrvZ-kf~X1GFawnLystJd~qaalfz2biMg3quppQTWMA3ip4ipjFhUlVKohx9v-VVbMgvtZS5OOH24eW9LKnuwprNvX7cCgPrBuPeZ7NgFjctE94Uuaz3z8AtHUCng-8jGxQttVgulzwpr1q3t9P2~GDW5ztOu~yId3IKhRcskiToDDd30fZB4ApJ7ekYkNAfuoXdWXDZCL6AQadgqENKfQ2a6ypmkD~T51dNHv18ug__&Key-Pair-Id=APKAJAGZ7VMH2PFPW6UQ"
+            },
+            {
+              "audio-title": "groan",
+              "audio-path": "https://cf-media.sndcdn.com/kcDAk2ffruWD.128.mp3?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiKjovL2NmLW1lZGlhLnNuZGNkbi5jb20va2NEQWsyZmZydVdELjEyOC5tcDMiLCJDb25kaXRpb24iOnsiRGF0ZUxlc3NUaGFuIjp7IkFXUzpFcG9jaFRpbWUiOjE1MTgyMTk5MTV9fX1dfQ__&Signature=itcovjl2xP0iZ1NaulvfinlbknAW8MAd0mWc6Gplhk7CrGIkPE-xpldDzrKFBbwg3hAUqZ2yGRrYEqrNSQL-gzywuyr~Og02620N8rautCo2qKKxGlIAnIfLf9I~ODM0AYRE~e635dvXLOB1PGqBMLsY0jRI8Slyay1JhGsuR0ZQmDSkOACnhMy1lpDkhmfsxwZwkt6SP~mhEhcz5gGNEUPaJtyIp3n9COsi6JoIPxXKK6uJa4N5kzrTF6JqPjt4BqbcVh2aNmhGRTLmbmmCDe-neNo3mxZSPrXaAVekrWa5uIKqhAAeHejDrRkNSXYuH0eaKSD4DlkFphq131Vx1g__&Key-Pair-Id=APKAJAGZ7VMH2PFPW6UQ"
+            },
+            {
+              "audio-title": "aching",
+              "audio-path": "https://cf-media.sndcdn.com/IEpHq3OKRAKh.128.mp3?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiKjovL2NmLW1lZGlhLnNuZGNkbi5jb20vSUVwSHEzT0tSQUtoLjEyOC5tcDMiLCJDb25kaXRpb24iOnsiRGF0ZUxlc3NUaGFuIjp7IkFXUzpFcG9jaFRpbWUiOjE1MTgyMTk4ODh9fX1dfQ__&Signature=J86L5nqDz-7G8yAM1h4H0BXlLkW9-gPnZmPVaHNMtcMfe1AH8INpSDH6RWdImO5vmtpsOBVWWm~4dHZIpmcBPzclnFW4sTEuyxCUadyIMIZnUCPsWB1gWmxXYIENIkLnM1Mp~hp3azzHxN5rd6v~k8JqGI28nxpbg8Zoh4akHjbgoALLhVZn14GatmpwnSJS5zwurK6fdGJ1rrbAIDyAlkKaofnpj916c9zpVJpV1BEfoNNmaKeH4EFJVhCLnIPrxridYaSFQQ1S0ZSFiYuGsZXlLNKC7psHuR-CKCGJ9O1gSBZAwkxqY940jrXtHWs-Bsp3wJ97jPawQlXQmJwWtw__&Key-Pair-Id=APKAJAGZ7VMH2PFPW6UQ"
+            },
+            {
+              "audio-title": "meditating",
+              "audio-path": "https://cf-media.sndcdn.com/TOg71XBvWE4c.128.mp3?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiKjovL2NmLW1lZGlhLnNuZGNkbi5jb20vVE9nNzFYQnZXRTRjLjEyOC5tcDMiLCJDb25kaXRpb24iOnsiRGF0ZUxlc3NUaGFuIjp7IkFXUzpFcG9jaFRpbWUiOjE1MTgyMTk4NjZ9fX1dfQ__&Signature=oe4pkKJApPLDKXvtqugjczjo0UyxYtX2rqXNDBLBC1DwFgcv5faDIXP1DdD5R2htOLTpKi7piPO8~GRlWvD-2BzoMtlICPBpqDD5eMIrJYABWPtVymncTue0Tj03bMTZfQo~1~1Q70PwkNrwVETKLS1SujjeBjI5v540uZZAUU5qGCHidxnr8meqbfwmKY4BDhjzwyDQQNbe7NeAYad5146I3vo30xsP802COxGXc47Aw1KyOwFho5Mh3MWnLzcS7a4COqjrivCahGVkmr5ASGPtOQQdb42N8IzlgngS70P~Q6PHrw4PlX7C-AeXsM0EmDKI7s8PHb0HXS0yah1p1Q__&Key-Pair-Id=APKAJAGZ7VMH2PFPW6UQ"
+            },
+            {
+              "audio-title": "gasp",
+              "audio-path": "https://cf-media.sndcdn.com/dfzkRrBVnidG.128.mp3?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiKjovL2NmLW1lZGlhLnNuZGNkbi5jb20vZGZ6a1JyQlZuaWRHLjEyOC5tcDMiLCJDb25kaXRpb24iOnsiRGF0ZUxlc3NUaGFuIjp7IkFXUzpFcG9jaFRpbWUiOjE1MTgyMTk4MjJ9fX1dfQ__&Signature=LkyAjDNpKK6Bjttc9CItsy61NSx3k0nc7n2HbQjQTInX8VSLxakIF2DWPA5F-iA9L0zKUrxE3SI7IudeyuipdxuqM9Fyfm2dvmPRmWpYfeaLpv3q4VcXdYkxZdsvtZlHYtb0yvMpL3KUP4nTkd9yqUjBa1xiOBwmr4DfQPPkvw7vauo10fxo0Z1v41GmgWfHNaawFsF5tfEJ~HJPYsbX0VmJbYXnsopsRAeTMbWjii2Pb1Nxs64JbAbtVvS0Zeqf-GZm2uaiJy-fPJUmBy2cBa~gZ6aQMlgyKvzu9srnRPDoDBJ3qqND0XAqMmysBD5fZMKTQR7Zz74fvatnnhDalg__&Key-Pair-Id=APKAJAGZ7VMH2PFPW6UQ"
+            },
+            {
+              "audio-title": "paranoid",
+              "audio-path": "https://cf-media.sndcdn.com/FGF2JkoqHs8o.128.mp3?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiKjovL2NmLW1lZGlhLnNuZGNkbi5jb20vRkdGMkprb3FIczhvLjEyOC5tcDMiLCJDb25kaXRpb24iOnsiRGF0ZUxlc3NUaGFuIjp7IkFXUzpFcG9jaFRpbWUiOjE1MTgyMTk3ODJ9fX1dfQ__&Signature=X7R-kU9bRsVNhgbUll6eIDwTSlExJ5koHK2BYGONnyUdkW-xhVLrF5BYJtw-W1Ic6Brvbs5~mocYO3v1O0JGNfXudtoUor6aGEF32ciOSAh0avwUgjbNRub4ANr0wBEPxQIB1x47AIuw6O~l59Y-1HI5i9SxSp6SWOtXRNkW203LPDxJj4-UwCfMPSyTYP8hBqouFJTbxrgGYaa4KKtiAuHLIv0bFKF9eNPmEpYEWjvCQPC5KfIkKQjtwaz66f6398LjtXj80nxXjDlYlwJFnZtOGexppGfrKD60MXrC35dl1KxWeu~tFj2nWyShcu8rXFIWNEfVH~yE44vu1PZoZg__&Key-Pair-Id=APKAJAGZ7VMH2PFPW6UQ"
+            },
+            {
+              "audio-title": "eating-hot-ramen",
+              "audio-path": "https://cf-media.sndcdn.com/WsleU0fKD7r5.128.mp3?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiKjovL2NmLW1lZGlhLnNuZGNkbi5jb20vV3NsZVUwZktEN3I1LjEyOC5tcDMiLCJDb25kaXRpb24iOnsiRGF0ZUxlc3NUaGFuIjp7IkFXUzpFcG9jaFRpbWUiOjE1MTgyMTk2NTV9fX1dfQ__&Signature=Hh6batS3W-G6BWiIuZFmKG4SoKvD3HKlozZ68SxA8V4XB5tKHFLIRtUEigNuG6PPH6JGgt4jul2O5ORAcb7APsmli2UK7EvfqWcsS~peZKALc4UTS4zBCPw43BN9LSzrz5Q-leSq2JYUWdsd88k7qyQPM-FDJC-ZiV-3pDgOEcGGEmn6Q9Ka83DYzOjjQnNXHSy~hZVN97ZY6EhAK92oT-HTHxZSlS~-qWn60EAWoP7hNfkTQC4nxXQWO2A~nkZhItSqCZgHuqCjy71jHdBMj4CYkj61HfRHOH3juSleIYLU9fRlcjjT7H-nkxSwwagr4zgoGFeispLxqUcW~x52VQ__&Key-Pair-Id=APKAJAGZ7VMH2PFPW6UQ"
+            },
+            {
+              "audio-title": "freezing-1",
+              "audio-path": "https://cf-media.sndcdn.com/o3mHVIXZlZ18.128.mp3?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiKjovL2NmLW1lZGlhLnNuZGNkbi5jb20vbzNtSFZJWFpsWjE4LjEyOC5tcDMiLCJDb25kaXRpb24iOnsiRGF0ZUxlc3NUaGFuIjp7IkFXUzpFcG9jaFRpbWUiOjE1MTgyMTk0OTB9fX1dfQ__&Signature=kh72NMYTsFX2Ji2eW62nFmmigxIG3ayQ5uYvMoJMuQ3RdfiKuPehVbut1DTOQlH7t-jN~qejV~aWDR7XSp3~eTTq7f5rq5mBoEafu1mCKFGiGwrFs5XSvIkSGYYo~c1bTRCpaWVyPbzK-B0Dy0quLxsYQwi64pDWGiSpcmxjx7WZdFjgVBMzIYDFk1D7hT11KDxj-~qoTacK8PBTLU71Ru7WT4HdD4Qi4nhEzTeaOQIFkp9MydaRkvz3Swj-6J7Ur6wb6jgfq9dp~Fa71EjpmxZFYwrjS~RDN9-oBTaGYlmf9aP6DeIMA~~NAVbECEFrL01MW~wJrmGJqbv28~K30g__&Key-Pair-Id=APKAJAGZ7VMH2PFPW6UQ"
+            },
+            {
+              "audio-title": "freezing-2",
+              "audio-path": "https://cf-media.sndcdn.com/BDVZbkj4MhRW.128.mp3?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiKjovL2NmLW1lZGlhLnNuZGNkbi5jb20vQkRWWmJrajRNaFJXLjEyOC5tcDMiLCJDb25kaXRpb24iOnsiRGF0ZUxlc3NUaGFuIjp7IkFXUzpFcG9jaFRpbWUiOjE1MTgyMTk1MTV9fX1dfQ__&Signature=IYkH2YutDn0ehLBf0kMMc1uTceAAmZuCLSlmwb2ziai5N-4sJBZas13kHXfh9aNfZfzE4btW25leC7UXwbOi7w7yNbgm5w4w01pJDnZ1We7mGz4R3uL7RL4-Eb6vl4k1eOFfXNyOmqOFDdVnq5LbxauaBpuYVIIloN6JFhHFqd-LPG9LZB-5T9szJXv3hnwBOmJ-u~A2jlGpxzwTu77eNPbBpzIG2X4mW3P1~RoANz8OTeMnzfIpxTAdOkKl03vaoe6KP1LD4rHZ~8aVgPdY~JgFH10NW3aAQ93ELNsnnBuHNv46jLb-VekBZScGasxMBI7oF0-2saj9S5mktqd~Tw__&Key-Pair-Id=APKAJAGZ7VMH2PFPW6UQ"
+            },
+            {
+              "audio-title": "freezing-3",
+              "audio-path": "https://cf-media.sndcdn.com/s6l5iRLXVJWJ.128.mp3?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiKjovL2NmLW1lZGlhLnNuZGNkbi5jb20vczZsNWlSTFhWSldKLjEyOC5tcDMiLCJDb25kaXRpb24iOnsiRGF0ZUxlc3NUaGFuIjp7IkFXUzpFcG9jaFRpbWUiOjE1MTgyMTk1Mjh9fX1dfQ__&Signature=IQ2hN83XwpRqPFYbTOIbGN~c9McTFymWI5yYQ-k6HThj1WigCEcPYPjrIOZQI0IMRkAJutAAnml225ro9CDVgJ4lMWZ7A-Qn72IVHHEpbfKG-3gJ6Fs1S82bHYbIjeVzx2MJcseXsLSiieuKGvWPubGwHyo7zXTn3tMPvx9XHp-OolZlDxoL6ap0yc-l6mTQ~z9jcFJtRfGQ3aTb9HR-GWHm1tN-E7ejqdnWur9e2Jxv48NZs07IDbQI5bWggXcHeZWuPpkIZhoXNhaoyi1QbuSf4O30tpqkQklsBWF67GDXX7~V7nsPIiscQT4gr9EY2ZTt2WYC~PWIMQcOtzR5Pw__&Key-Pair-Id=APKAJAGZ7VMH2PFPW6UQ"
+            }
+          ]
+      },
+      {
+        "tab": "Voice-Lines",
+        "audio":
+          [
+            {
+              "audio-title": "we-are-in-harmony",
+              "audio-path": "https://api.soundcloud.com/tracks/397561602/download?secret_token=s-0tV30&client_id=DQskPX1pntALRzMp4HSxya3Mc0AO66Ro"
+            },
+            {
+              "audio-title": "death-is-whimsicle-today",
+              "audio-path": "https://api.soundcloud.com/tracks/397561596/download?secret_token=s-n0x0n&client_id=DQskPX1pntALRzMp4HSxya3Mc0AO66Ro"
+            },
+            {
+              "audio-title": "do-i-think",
+              "audio-path": "https://api.soundcloud.com/tracks/397561593/download?secret_token=s-GJ4Az&client_id=DQskPX1pntALRzMp4HSxya3Mc0AO66Ro"
+            },
+            {
+              "audio-title": "free-your-mind",
+              "audio-path": "https://soundcloud.com/su2206-audio/free-your-mind/s-5vWQB?in=su2206-audio/sets/zenyatta-4/s-WFwqS"
+            },
+            {
+              "audio-title": "i-dreamt-i-was-a-butterfly",
+              "audio-path": "https://api.soundcloud.com/tracks/397561656/download?secret_token=s-AlosZ&client_id=DQskPX1pntALRzMp4HSxya3Mc0AO66Ro"
+            },
+            {
+              "audio-title": "i-think-therefore-i-am",
+              "audio-path": "https://api.soundcloud.com/tracks/397561647/download?secret_token=s-ccSC9&client_id=DQskPX1pntALRzMp4HSxya3Mc0AO66Ro"
+            },
+            {
+              "audio-title": "i-will-not-juggle",
+              "audio-path": "https://api.soundcloud.com/tracks/397561641/download?secret_token=s-rqoW4&client_id=DQskPX1pntALRzMp4HSxya3Mc0AO66Ro"
+            },
+            {
+              "audio-title": "life-more-than-ones-and-zeros",
+              "audio-path": "https://api.soundcloud.com/tracks/397561629/download?secret_token=s-SYsUI&client_id=DQskPX1pntALRzMp4HSxya3Mc0AO66Ro"
+            },
+            {
+              "audio-title": "peace-and-blessings",
+              "audio-path": "https://api.soundcloud.com/tracks/397561617/download?secret_token=s-5aDug&client_id=DQskPX1pntALRzMp4HSxya3Mc0AO66Ro"
+            },
+            {
+              "audio-title": "the-iris-embraces-you",
+              "audio-path": "https://api.soundcloud.com/tracks/397561614/download?secret_token=s-Uo1BX&client_id=DQskPX1pntALRzMp4HSxya3Mc0AO66Ro"
+            },
+            {
+              "audio-title": "always-strive-for-improvement",
+              "audio-path": "https://api.soundcloud.com/tracks/397561599/download?secret_token=s-rHcqP&client_id=DQskPX1pntALRzMp4HSxya3Mc0AO66Ro"
+            },
+            {
+              "audio-title": "trick-or-treat",
+              "audio-path": "https://api.soundcloud.com/tracks/397561605/download?secret_token=s-TUucq&client_id=DQskPX1pntALRzMp4HSxya3Mc0AO66Ro"
+            },
+            {
+              "audio-title": "frightening",
+              "audio-path": "https://api.soundcloud.com/tracks/397561563/download?secret_token=s-Onp6b&client_id=DQskPX1pntALRzMp4HSxya3Mc0AO66Ro"
+            },
+            {
+              "audio-title": "no-snowflake-falls-wrong-place",
+              "audio-path": "https://api.soundcloud.com/tracks/397561626/download?secret_token=s-m1B2X&client_id=DQskPX1pntALRzMp4HSxya3Mc0AO66Ro"
+            },
+            {
+              "audio-title": "joy-to-the-world",
+              "audio-path": "https://api.soundcloud.com/tracks/397561635/download?secret_token=s-PYPzq&client_id=DQskPX1pntALRzMp4HSxya3Mc0AO66Ro"
+            },
+            {
+              "audio-title": "every-rooster-crows-own-pen",
+              "audio-path": "https://api.soundcloud.com/tracks/397561584/download?secret_token=s-vawOn&client_id=DQskPX1pntALRzMp4HSxya3Mc0AO66Ro"
+            },
+            {
+              "audio-title": "path-to-enlightenment",
+              "audio-path": "https://api.soundcloud.com/tracks/397561620/download?secret_token=s-4IkXM&client_id=DQskPX1pntALRzMp4HSxya3Mc0AO66Ro"
+            },
+            {
+              "audio-title": "if-do-not-change-direction",
+              "audio-path": "https://soundcloud.com/su2206-audio/if-do-not-change-direction/s-UwYKR?in=su2206-audio/sets/zenyatta-4/s-WFwqS"
+            },
+            {
+              "audio-title": "how-disappointing",
+              "audio-path": "https://api.soundcloud.com/tracks/397561659/download?secret_token=s-Z3qf2&client_id=DQskPX1pntALRzMp4HSxya3Mc0AO66Ro"
+            },
+            {
+              "audio-title": "existence-is-mysterious",
+              "audio-path": "https://api.soundcloud.com/tracks/397561575/download?secret_token=s-XTv4v&client_id=DQskPX1pntALRzMp4HSxya3Mc0AO66Ro"
+            }
+          ]
+      }
+    ]
 }
