@@ -1,5 +1,4 @@
 // TODO:
-// develop D.Va content
 // develop interface to ask user for a character and then render content & styles accordingly
 // make app.js run first and be finished before the other scripts; must be cross-browser compatible
 
@@ -14,7 +13,7 @@ $(function() {
     async: false
   });
 
-  $.getJSON('/data/zenyatta.json', function(data){
+  $.getJSON('/data/soldier76.json', function(data){
     // insert chracter name into title tag
     $('title').text(function(){
       return $('title').text().replace('character-name', data["character-name"]);
