@@ -1,8 +1,8 @@
 
 // var $ = require ('jquery');
 
-window.addEventListener("load", function(){
-  // $(document).ready(function() {
+// window.addEventListener("load", function(){
+  $(document).ready(function() {
   const tablinks = document.querySelectorAll('.tablinks');
   const tabcontent = document.querySelectorAll('.tabcontent');
   let currSection;
@@ -41,4 +41,5 @@ window.addEventListener("load", function(){
     // Get the element with id="defaultOpen" and click on it
     document.getElementById("defaultOpen").click();
   });
-},false);
+  });
+// },false);

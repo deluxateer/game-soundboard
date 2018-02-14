@@ -52,9 +52,9 @@
           <script id="tabTemplate" type="text/handlebars-template">
             {{#each tabs}}
               {{#if @first}}
-                <button class="tablinks" data-name="{{tab}}" id="defaultOpen">{{tab}}</button>
+                <button class="tablinks" id="defaultOpen">{{tab}}</button>
               {{else}}
-                <button class="tablinks" data-name="{{tab}}">{{tab}}</button>
+                <button class="tablinks">{{tab}}</button>
               {{/if}}
             {{/each}}
           </script>

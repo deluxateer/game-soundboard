@@ -23,11 +23,12 @@ gulp.task('js', function (cb) {
   pump([
         gulp.src(`${src}/js/*.js`),
         // gulp.src([`${src}/js/app.js`, `${src}/js/tabs.js`, `${src}/js/play-sound.js`]),
-        browserify(),
+        // gulp.src([`${src}/js/app.js`]),
         babel({ presets: ['es2015'] }),
         concat('app.js').on('error', function(err){
           console.error('Error!', err.message)
         }),
+        browserify(),
         gulpif(env === 'production', uglify()).on('error', function(err){
           console.error('Error!', err.message)
         }),

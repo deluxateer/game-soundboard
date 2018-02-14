@@ -1,6 +1,6 @@
 // var $ = require("jquery");
-window.addEventListener("load", function() {
-// $(document).ready(function() {
+// window.addEventListener("load", function() {
+$(document).ready(function() {
     function playSound(e) {
       let item = e.target;
       if (e.target !== e.currentTarget) {
@@ -24,5 +24,5 @@ window.addEventListener("load", function() {
       btn.addEventListener('click', playSound);
       // console.log('hooking up sound listeners');
     });
-// });
-},false);
+});
+// },false);

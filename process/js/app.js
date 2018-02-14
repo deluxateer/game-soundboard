@@ -1,11 +1,8 @@
 // TODO:
 // develop interface to ask user for a character and then render content & styles accordingly
-// make app.js run first and be finished before the other scripts; must be cross-browser compatible
 
 var Handlebars = require('handlebars');
 var $ = require ('jquery');
-
-// $(document).ready(function() {
 
 $(function() {
 
@@ -63,4 +60,3 @@ $(function() {
     });
 
 }); // Page Ready
-// });
