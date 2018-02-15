@@ -126,7 +126,7 @@
             },
             {
               "audio-title": "hatred-not-strategy",
-              "audio-path": "https://soundcloud.com/su2206-audio/hatred-not-strategy/s-lIfOH?in=su2206-audio/sets/zenyatta-3/s-OXImo"
+              "audio-path": "https://api.soundcloud.com/tracks/397518936/download?secret_token=s-lIfOH&client_id=DQskPX1pntALRzMp4HSxya3Mc0AO66Ro"
             },
             {
               "audio-title": "you-do-not-bend-you-break",
@@ -406,7 +406,7 @@
             },
             {
               "audio-title": "free-your-mind",
-              "audio-path": "https://soundcloud.com/su2206-audio/free-your-mind/s-5vWQB?in=su2206-audio/sets/zenyatta-4/s-WFwqS"
+              "audio-path": "https://api.soundcloud.com/tracks/397561566/download?secret_token=s-5vWQB&client_id=DQskPX1pntALRzMp4HSxya3Mc0AO66Ro"
             },
             {
               "audio-title": "i-dreamt-i-was-a-butterfly",
@@ -462,7 +462,7 @@
             },
             {
               "audio-title": "if-do-not-change-direction",
-              "audio-path": "https://soundcloud.com/su2206-audio/if-do-not-change-direction/s-UwYKR?in=su2206-audio/sets/zenyatta-4/s-WFwqS"
+              "audio-path": "https://api.soundcloud.com/tracks/397561650/download?secret_token=s-UwYKR&client_id=DQskPX1pntALRzMp4HSxya3Mc0AO66Ro"
             },
             {
               "audio-title": "how-disappointing",

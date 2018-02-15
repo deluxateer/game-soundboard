@@ -3,4 +3,5 @@ node_modules
 .tmp
 app/css/app.css
 app/js/app.js
+app/service-worker.js
 package-lock.json

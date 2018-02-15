@@ -3,90 +3,121 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Soundboard - character-name</title>
+  <title>Game Soundboard</title>
   <link rel="stylesheet" href="css/app.css">
+  <style media="screen">
+  @import url('https://fonts.googleapis.com/css?family=Titillium+Web');
+  body {
+    font-family: 'Titillium Web', sans-serif;
+    background: #22252a;
+    text-align: center;
+  }
+  h1,
+  h2,
+  h3,
+  p {
+    color: #3B8EA5;
+  }
+  h1 {
+    text-transform: uppercase;
+    padding: 15px 0;
+    background-color: #0B1248;
+    border-bottom: 1px solid #000;
+  }
+  h2 {
+    font-size: 1.6rem;
+    text-transform: uppercase;
+    margin: 1.6rem 0;
+  }
+  h1 ~ p {
+    margin: 20px 0;
+  }
+  @supports (grid-area: auto) {
+    .grid {
+      grid-template-columns: repeat(2,1fr);
+      grid-gap: 1rem;
+    }
+  }
+  .character-name {
+    font-size: 1.2rem;
+  }
+  footer {
+    background-color: #000;
+  }
+  footer a {
+    color: #fff;
+    padding: 10px 0;
+  }
+  @media (min-width: 630px) {
+    @supports (grid-area: auto) {
+      .grid {
+        grid-template-columns: repeat(4,1fr);
+      }
+    }
+    #main .container {
+      min-height: 1024px;
+    }
+  }
+  @media (min-width: 1024px) {
+    h1, .sidebar {
+      border-right: 1px solid #000;
+    }
+  }
+  </style>
 </head>
-<body class="site">
-  <!-- <div class="loader"></div> -->
-  <div class="container">
-    <header>
-      <script id="headerTemplate" type="text/handlebars-template">
-        <h1 class="game-title">SoundBoard - {{game-title}}</h1>
-        <img class="character-icon" src="https://drive.google.com/uc?export=download&id={{character-icon}}" alt="{{character-name}} Icon">
-        <h2 class="character-name">{{character-name}}</h2>
-      </script>
-      <script id="styleTemplate" type="text/handlebars-template">
-        <style type="text/css">
-          @font-face {
-            font-family: '{{styling.font-general}}';
-            src: url({{styling.font-general-path}});
-          }
-          @font-face {
-            font-family: '{{styling.font-headers}}';
-            src: url({{styling.font-headers-path}});
-          }
-          :root{
-            --font-general: '{{styling.font-general}}';
-            --font-headers: '{{styling.font-headers}}';
-            --bg-pattern: {{styling.bg-pattern}};
-            --bg-image: url("https://drive.google.com/uc?export=download&id={{bg-image}}");
-            --body-color: {{styling.body-color}};
-            --header-color: {{styling.header-color}};
-            --paragraph-color: {{styling.paragraph-color}};
-            --tab-color: {{styling.tab-color}};
-            --tab-btn-hover: {{styling.tab-btn-hover}};
-            --tab-btn-active: {{styling.tab-btn-active}};
-            --brd-btn-color: {{styling.brd-btn-color}};
-            --brd-btn-border: {{styling.brd-btn-border}};
-            --brd-btn-hover: {{styling.brd-btn-hover}};
-            --brd-btn-hover-p: {{styling.brd-btn-hover-p}};
-            --footer-color: {{styling.footer-color}};
-          }
-        </style>
-       </script>
-    </header>
-    <main>
-      <nav>
-        <!-- Tab links -->
-        <div class="tab">
-          <script id="tabTemplate" type="text/handlebars-template">
-            {{#each tabs}}
-              {{#if @first}}
-                <button class="tablinks" id="defaultOpen">{{tab}}</button>
-              {{else}}
-                <button class="tablinks">{{tab}}</button>
-              {{/if}}
-            {{/each}}
-          </script>
-        </div>
-      </nav>
-
-      <script id="sectionTemplate" type="text/handlebars-template">
-        {{#each tabs}}
-        <div id="{{tab}}" class="tabcontent">
-          <h3>{{tab}}</h3>
-          {{#each audio}}
-          <div class="brd-btn">
-            <p class="btn-text">{{this.audio-title}}</p>
-            <audio class="track" data src="{{this.audio-path}}"></audio>
-          </div>
-          {{/each}}
-        </div><!-- tabcontent -->
-        {{/each}}
-      </script>
-    </main>
+<body>
+  <div class="sidebar">
+    <h1>Game SoundBoard</h1>
+    <div class="container">
+      <p>Listen to your favorite character's voice lines and sassy remarks by clicking on the respective icon below. Try using them to entertain your friends (and yourself) online and elsewhere. Enjoy!</p>
+    </div>
   </div>
-  <footer>
-    <script id="legalTemplate" type="text/handlebars-template">
-      <p>All audio, images, and fonts are property of {{company}}. To learn more about {{game-title}}, please visit their site <a target="_blank" href='{{company-url}}'>here.</a></p>
-    </script>
-    <p>SoundBoard by ***REMOVED***</p>
-    <ul>
-      <li><a href="https://github.com/***REMOVED***">Github</a></li>
-      <li><a href="https://linkedin.com/in/***REMOVED***">LinkedIn</a></li>
-      <li><a href="https://***REMOVED***.github.io">Portfolio</a></li>
-    </ul>
-  </footer>
-  <script src="js/app.js"></script>
+  <div id="main">
+    <div class="container">
+      <h2>Select Your Character</h2>
+      <div class="grid">
+        <div data-name="soldier76" class="character-option">
+          <a href="board.html">
+            <img class="character-icon" src="https://drive.google.com/uc?export=download&id=1wbeMfJvpwqBM83H8ied7yr4g2ktiR4pr" alt="Soldier 76 Icon">
+            <h3 class="character-name">Soldier 76</h3>
+            <p>Overwatch</p>
+          </a>
+        </div>
+        <div data-name="zenyatta" class="character-option">
+          <a href="board.html">
+            <img class="character-icon" src="https://drive.google.com/uc?export=download&id=1b-rQHXE9acFLujbQgL3jva5iGI-ScQJR" alt="Zenyatta Icon">
+            <h3 class="character-name">Zenyatta</h3>
+            <p>Overwatch</p>
+          </a>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <p>SoundBoard by ***REMOVED***</p>
+      <ul>
+        <li><a href="https://github.com/***REMOVED***">Github</a></li>
+        <li><a href="https://linkedin.com/in/***REMOVED***">LinkedIn</a></li>
+        <li><a href="https://***REMOVED***.github.io">Portfolio</a></li>
+      </ul>
+    </footer>
+  </div>
+  <script type="text/javascript">
+  // decide which json file to render for soundboard
+  let options = document.querySelectorAll('.character-option');
+  let characterToRender = window.localStorage
+  options.forEach(option => {
+    option.addEventListener('click', function(){
+      characterToRender.setItem('character', option.dataset.name);
+    });
+  });
+  // run serviceWorker if available
+  if('serviceWorker' in navigator) {
+    navigator.serviceWorker
+      .register('./service-worker.js')
+      .then(function() {
+        console.log('service worker active');
+      })
+  }
+  </script>
 </body>
 </html>

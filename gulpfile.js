@@ -8,6 +8,8 @@ var gulp = require('gulp'),
     pump = require('pump'),
     babel = require('gulp-babel'),
     webserver = require('gulp-webserver');
+    // swPrecache = require('sw-precache'),
+    // path = require('path');
 
 var src = './process',
     dest = './app',
@@ -19,6 +21,22 @@ gulp.task('css', function () {
     .pipe(gulp.dest(`${dest}/css`));
 });
 
+// failed attempt to utilize service workers, which caches assets so the web app can be rendered offline; reluctant to throw away code
+// gulp.task('generate-service-worker', function (cb) {
+//   swPrecache.write(path.join(dest, 'service-worker.js'), {
+//     staticFileGlobs:
+//     [dest + '/**/*.{js,html,json,css,png,jpg,gif,svg,eot,ttf,woff}'],
+//     stripPrefix: dest,
+//     runtimeCaching: [{
+//       urlPattern: /^https:\/\/drive\.google\.com\//,
+//       handler: 'cacheFirst'
+//     },
+//     {
+//       urlPattern: /^https:\/\/api\.soundcloud\.com\//,
+//       handler: 'cacheFirst'
+//     }]
+//   }, cb);
+// });
 gulp.task('js', function (cb) {
   pump([
         gulp.src(`${src}/js/*.js`),
@@ -43,7 +61,7 @@ gulp.task('watch', function() {
     gulp.watch(src + '/css/*.css', ['css']);
 });
 
-gulp.task('webserver', ['css', 'js'], function() {
+gulp.task('webserver', [ 'css', 'js'], function() {
   gulp.src(dest)
   .pipe(webserver({
       livereload: true,

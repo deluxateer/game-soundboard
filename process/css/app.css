@@ -50,7 +50,7 @@ Global Styles
 html {
   font-size: 16px;
 }
-.site {
+body {
   font-family: var(--font-general), sans-serif;
   background: var(--bg-pattern);
   background-color: var(--body-color);
@@ -76,6 +76,19 @@ img {
   width: 90%;
   margin: 0 auto;
   text-align: center;
+}
+.home-btn {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  position: fixed;
+  top: 0;
+  left: 0;
 }
 .loader {
     position: absolute;
@@ -215,12 +228,38 @@ footer a:hover {
   text-decoration: underline;
 }
 
+/*
+Index.html
+-----------------------------------*/
+
+#main .container {
+  min-height: 600px;
+}
+.character-option {
+  background-color: #fff;
+  color: #000;
+}
+.character-option a,
+.character-option h3,
+.character-option p {
+  text-decoration: none;
+  color: inherit;
+}
+.character-option:hover {
+  background-color: #1BC123;
+  color: #fff;
+}
+
 @media (min-width: 768px) {
   .site {
     background: linear-gradient(rgba(67, 72, 76, .6), rgba(67, 72, 76, .4)), var(--bg-image);
     background-position: 80% 50%;
     background-repeat: no-repeat;
     background-size: cover;
+  }
+  .home-btn {
+    bottom: 0;
+    top: initial;
   }
   header {
     float: left;
@@ -241,5 +280,18 @@ footer a:hover {
     .grid {
       grid-template-columns: repeat(6, 1fr);
     }
+  }
+  .sidebar {
+    height: 100%;
+    width: 250px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #1D2123;
+    overflow-x: hidden;
+  }
+  #main {
+    margin-left: 250px;
   }
 }

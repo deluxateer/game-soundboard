@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Soundboard - character-name</title>
+  <link rel="stylesheet" href="css/app.css">
+</head>
+<body class="site">
+  <!-- <div class="loader"></div> -->
+  <div class="container">
+    <a class="home-btn" href="index.html">Home</a>
+    <header>
+      <script id="headerTemplate" type="text/handlebars-template">
+        <h1 class="game-title">SoundBoard - {{game-title}}</h1>
+        <img class="character-icon" src="https://drive.google.com/uc?export=download&id={{character-icon}}" alt="{{character-name}} Icon">
+        <h2 class="character-name">{{character-name}}</h2>
+      </script>
+      <script id="styleTemplate" type="text/handlebars-template">
+        <style type="text/css">
+          @font-face {
+            font-family: '{{styling.font-general}}';
+            src: url({{styling.font-general-path}});
+          }
+          @font-face {
+            font-family: '{{styling.font-headers}}';
+            src: url({{styling.font-headers-path}});
+          }
+          :root{
+            --font-general: '{{styling.font-general}}';
+            --font-headers: '{{styling.font-headers}}';
+            --bg-pattern: {{styling.bg-pattern}};
+            --bg-image: url("https://drive.google.com/uc?export=download&id={{bg-image}}");
+            --body-color: {{styling.body-color}};
+            --header-color: {{styling.header-color}};
+            --paragraph-color: {{styling.paragraph-color}};
+            --tab-color: {{styling.tab-color}};
+            --tab-btn-hover: {{styling.tab-btn-hover}};
+            --tab-btn-active: {{styling.tab-btn-active}};
+            --brd-btn-color: {{styling.brd-btn-color}};
+            --brd-btn-border: {{styling.brd-btn-border}};
+            --brd-btn-hover: {{styling.brd-btn-hover}};
+            --brd-btn-hover-p: {{styling.brd-btn-hover-p}};
+            --footer-color: {{styling.footer-color}};
+          }
+        </style>
+       </script>
+    </header>
+    <main>
+      <nav>
+        <!-- Tab links -->
+        <div class="tab">
+          <script id="tabTemplate" type="text/handlebars-template">
+            {{#each tabs}}
+              {{#if @first}}
+                <button class="tablinks" id="defaultOpen">{{tab}}</button>
+              {{else}}
+                <button class="tablinks">{{tab}}</button>
+              {{/if}}
+            {{/each}}
+          </script>
+        </div>
+      </nav>
+
+      <script id="sectionTemplate" type="text/handlebars-template">
+        {{#each tabs}}
+        <div id="{{tab}}" class="tabcontent">
+          <h3>{{tab}}</h3>
+          {{#each audio}}
+          <div class="brd-btn">
+            <p class="btn-text">{{this.audio-title}}</p>
+            <audio class="track" data src="{{this.audio-path}}"></audio>
+          </div>
+          {{/each}}
+        </div><!-- tabcontent -->
+        {{/each}}
+      </script>
+    </main>
+  </div>
+  <footer>
+    <script id="legalTemplate" type="text/handlebars-template">
+      <p>All audio, images, and fonts are property of {{company}}. To learn more about {{game-title}}, please visit their site <a target="_blank" href='{{company-url}}'>here.</a></p>
+    </script>
+    <p>SoundBoard by ***REMOVED***</p>
+    <ul>
+      <li><a href="https://github.com/***REMOVED***">Github</a></li>
+      <li><a href="https://linkedin.com/in/***REMOVED***">LinkedIn</a></li>
+      <li><a href="https://***REMOVED***.github.io">Portfolio</a></li>
+    </ul>
+  </footer>
+  <script src="js/app.js"></script>
+</body>
+</html>

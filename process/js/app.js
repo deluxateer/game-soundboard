@@ -1,16 +1,24 @@
-// TODO:
-// develop interface to ask user for a character and then render content & styles accordingly
 
 var Handlebars = require('handlebars');
 var $ = require ('jquery');
 
 $(function() {
+  let characterToRender = window.localStorage;
+
+  if('serviceWorker' in navigator) {
+    navigator.serviceWorker
+      .register('./service-worker.js')
+      .then(function() {
+        console.log('service worker active');
+      })
+  }
 
   $.ajaxSetup({
     async: false
   });
 
-  $.getJSON('/data/soldier76.json', function(data){
+  $.getJSON(`/data/${characterToRender.getItem('character')}.json`, function(data){
+  // $.getJSON('/data/soldier76.json', function(data){
     // insert chracter name into title tag
     $('title').text(function(){
       return $('title').text().replace('character-name', data["character-name"]);
