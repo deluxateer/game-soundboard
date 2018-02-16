@@ -5,20 +5,20 @@ var $ = require ('jquery');
 $(function() {
   let characterToRender = window.localStorage;
 
-  if('serviceWorker' in navigator) {
-    navigator.serviceWorker
-      .register('./service-worker.js')
-      .then(function() {
-        console.log('service worker active');
-      })
-  }
+  // if('serviceWorker' in navigator) {
+  //   navigator.serviceWorker
+  //     .register('./service-worker.js')
+  //     .then(function() {
+  //       console.log('service worker active');
+  //     })
+  // }
 
   $.ajaxSetup({
     async: false
   });
 
   $.getJSON(`/data/${characterToRender.getItem('character')}.json`, function(data){
-  // $.getJSON('/data/soldier76.json', function(data){
+
     // insert chracter name into title tag
     $('title').text(function(){
       return $('title').text().replace('character-name', data["character-name"]);
@@ -55,16 +55,19 @@ $(function() {
     async: true
   });
 
-    $('.tabcontent').each(function(){
-      // removes dashes in button text
-      let btns = $(this).children().filter('.brd-btn');
-      btns.each(function(){
-        $(this).find('.btn-text').text($(this).find('.btn-text').text().replace(/\-/g, ' '));
-      });
-      // wraps grid class for every 6 buttons, so styling with css grid works
-      for(let i = 0; i < btns.length; i+=6) {
-        btns.slice(i, i+6).wrapAll('<div class="grid"></div>');
-      }
+  $('.tabcontent').each(function(){
+
+    // removes dashes in button text
+    let btns = $(this).children().filter('.brd-btn');
+    btns.each(function(){
+      $(this).find('.btn-text').text($(this).find('.btn-text').text().replace(/\-/g, ' '));
     });
 
+    // wraps grid class for every 6 buttons, so styling with css grid works
+    for(let i = 0; i < btns.length; i+=6) {
+      btns.slice(i, i+6).wrapAll('<div class="grid"></div>');
+    }
+  });
+
+  $('.loader, .load-cover').fadeOut(1500);
 }); // Page Ready

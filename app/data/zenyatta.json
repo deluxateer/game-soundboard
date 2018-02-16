@@ -6,473 +6,473 @@
   "company-url": "https://playoverwatch.com",
   "bg-image": "1saT71LZVA2OOLMaGi7FZ977TsHcU1fTq",
   "styling":
-    {
-      "font-general": "overwatch",
-      "font-general-path": "../fonts/koverwatch.ttf",
-      "font-headers": "overwatch-italic",
-      "font-headers-path": "../fonts/bignoodletoo.ttf",
-      "bg-pattern": "linear-gradient(27deg, #151515 5px, transparent 5px) 0 5px,linear-gradient(207deg, #151515 5px, transparent 5px) 10px 0px,linear-gradient(27deg, #222 5px, transparent 5px) 0px 10px,linear-gradient(207deg, #222 5px, transparent 5px) 10px 5px,linear-gradient(90deg, #1b1b1b 10px, transparent 10px),linear-gradient(#1d1d1d 25%, #1a1a1a 25%, #1a1a1a 50%, transparent 50%, transparent 75%, #242424 75%, #242424)",
-      "body-color": "#131313",
-      "header-color": "#F99E1A",
-      "paragraph-color": "#fff",
-      "tab-color": "#FFC70E",
-      "tab-btn-hover": "#FFB20C",
-      "tab-btn-active": "#F99E1A",
-      "brd-btn-color": "rgba(178, 176, 176, .5)",
-      "brd-btn-border": "1px solid #fff",
-      "brd-btn-hover": "#fff",
-      "brd-btn-hover-p": "#000",
-      "footer-color": "#00C3FF"
-    },
+  {
+    "font-general": "overwatch",
+    "font-general-path": "../fonts/koverwatch.ttf",
+    "font-headers": "overwatch-italic",
+    "font-headers-path": "../fonts/bignoodletoo.ttf",
+    "bg-pattern": "linear-gradient(27deg, #151515 5px, transparent 5px) 0 5px,linear-gradient(207deg, #151515 5px, transparent 5px) 10px 0px,linear-gradient(27deg, #222 5px, transparent 5px) 0px 10px,linear-gradient(207deg, #222 5px, transparent 5px) 10px 5px,linear-gradient(90deg, #1b1b1b 10px, transparent 10px),linear-gradient(#1d1d1d 25%, #1a1a1a 25%, #1a1a1a 50%, transparent 50%, transparent 75%, #242424 75%, #242424)",
+    "body-color": "#131313",
+    "header-color": "#F99E1A",
+    "paragraph-color": "#fff",
+    "tab-color": "#FFC70E",
+    "tab-btn-hover": "#FFB20C",
+    "tab-btn-active": "#F99E1A",
+    "brd-btn-color": "rgba(178, 176, 176, .5)",
+    "brd-btn-border": "1px solid #fff",
+    "brd-btn-hover": "#fff",
+    "brd-btn-hover-p": "#000",
+    "footer-color": "#00C3FF"
+  },
   "tabs":
-    [
-      {
-        "tab": "Abilities",
-        "audio":
-          [
-            {
-              "audio-title": "pass-into-iris",
-              "audio-path": "https://api.soundcloud.com/tracks/397503120/download?secret_token=s-JS5Jg&client_id=DQskPX1pntALRzMp4HSxya3Mc0AO66Ro"
-            },
-            {
-              "audio-title": "gaze-into-iris",
-              "audio-path": "https://api.soundcloud.com/tracks/397503138/download?secret_token=s-1lD4E&client_id=DQskPX1pntALRzMp4HSxya3Mc0AO66Ro"
-            },
-            {
-              "audio-title": "stare-into-iris",
-              "audio-path": "https://api.soundcloud.com/tracks/397503114/download?secret_token=s-BWrfb&client_id=DQskPX1pntALRzMp4HSxya3Mc0AO66Ro"
-            },
-            {
-              "audio-title": "experience-tranquility",
-              "audio-path": "https://api.soundcloud.com/tracks/397503147/download?secret_token=s-nxxux&client_id=DQskPX1pntALRzMp4HSxya3Mc0AO66Ro"
-            },
-            {
-              "audio-title": "embrace-tranquility",
-              "audio-path": "https://api.soundcloud.com/tracks/397503150/download?secret_token=s-qGYqa&client_id=DQskPX1pntALRzMp4HSxya3Mc0AO66Ro"
-            },
-            {
-              "audio-title": "be-reborn",
-              "audio-path": "https://api.soundcloud.com/tracks/397503039/download?secret_token=s-JVG20&client_id=DQskPX1pntALRzMp4HSxya3Mc0AO66Ro"
-            },
-            {
-              "audio-title": "be-one-with-universe",
-              "audio-path": "https://api.soundcloud.com/tracks/397503045/download?secret_token=s-hGtUX&client_id=DQskPX1pntALRzMp4HSxya3Mc0AO66Ro"
-            },
-            {
-              "audio-title": "open-your-mind",
-              "audio-path": "https://api.soundcloud.com/tracks/397503126/download?secret_token=s-qDNOn&client_id=DQskPX1pntALRzMp4HSxya3Mc0AO66Ro"
-            },
-            {
-              "audio-title": "walk-in-harmony",
-              "audio-path": "https://api.soundcloud.com/tracks/397503096/download?secret_token=s-0Xgzl&client_id=DQskPX1pntALRzMp4HSxya3Mc0AO66Ro"
-            },
-            {
-              "audio-title": "we-are-as-one",
-              "audio-path": "https://api.soundcloud.com/tracks/397503093/download?secret_token=s-UlWzi&client_id=DQskPX1pntALRzMp4HSxya3Mc0AO66Ro"
-            },
-            {
-              "audio-title": "we-are-as-one-my-friend",
-              "audio-path": "https://api.soundcloud.com/tracks/397503078/download?secret_token=s-fhPUu&client_id=DQskPX1pntALRzMp4HSxya3Mc0AO66Ro"
-            },
-            {
-              "audio-title": "bask-in-shadow-doubt",
-              "audio-path": "https://api.soundcloud.com/tracks/397503057/download?secret_token=s-3RM7W&client_id=DQskPX1pntALRzMp4HSxya3Mc0AO66Ro"
-            },
-            {
-              "audio-title": "darkness-falls",
-              "audio-path": "https://api.soundcloud.com/tracks/397503159/download?secret_token=s-dQ2sg&client_id=DQskPX1pntALRzMp4HSxya3Mc0AO66Ro"
-            },
-            {
-              "audio-title": "chaos-within-you",
-              "audio-path": "https://api.soundcloud.com/tracks/397503162/download?secret_token=s-bff9M&client_id=DQskPX1pntALRzMp4HSxya3Mc0AO66Ro"
-            },
-            {
-              "audio-title": "disquiet-in-your-soul",
-              "audio-path": "https://api.soundcloud.com/tracks/397503153/download?secret_token=s-sJWgu&client_id=DQskPX1pntALRzMp4HSxya3Mc0AO66Ro"
-            },
-            {
-              "audio-title": "your-own-worst-enemy",
-              "audio-path": "https://api.soundcloud.com/tracks/397503066/download?secret_token=s-VqFs6&client_id=DQskPX1pntALRzMp4HSxya3Mc0AO66Ro"
-            },
-            {
-              "audio-title": "know-doubt-plague-you",
-              "audio-path": "https://api.soundcloud.com/tracks/397503129/download?secret_token=s-Adswn&client_id=DQskPX1pntALRzMp4HSxya3Mc0AO66Ro"
-            },
-            {
-              "audio-title": "you-have-much-to-learn",
-              "audio-path": "https://api.soundcloud.com/tracks/397503075/download?secret_token=s-dwe6x&client_id=DQskPX1pntALRzMp4HSxya3Mc0AO66Ro"
-            },
-            {
-              "audio-title": "greatest-enemy-lies-within",
-              "audio-path": "https://api.soundcloud.com/tracks/397503132/download?secret_token=s-1gRaU&client_id=DQskPX1pntALRzMp4HSxya3Mc0AO66Ro"
-            },
-            {
-              "audio-title": "ready-for-transcendence",
-              "audio-path": "https://api.soundcloud.com/tracks/397503117/download?secret_token=s-3izs6&client_id=DQskPX1pntALRzMp4HSxya3Mc0AO66Ro"
-            }
-          ]
-      },
-      {
-        "tab": "Eliminations",
-        "audio":
-          [
-            {
-              "audio-title": "lesson-in-humility",
-              "audio-path": "https://api.soundcloud.com/tracks/397518909/download?secret_token=s-XzOs5&client_id=DQskPX1pntALRzMp4HSxya3Mc0AO66Ro"
-            },
-            {
-              "audio-title": "begins-in-ignorance",
-              "audio-path": "https://api.soundcloud.com/tracks/397518966/download?secret_token=s-JuggI&client_id=DQskPX1pntALRzMp4HSxya3Mc0AO66Ro"
-            },
-            {
-              "audio-title": "hatred-not-strategy",
-              "audio-path": "https://api.soundcloud.com/tracks/397518936/download?secret_token=s-lIfOH&client_id=DQskPX1pntALRzMp4HSxya3Mc0AO66Ro"
-            },
-            {
-              "audio-title": "you-do-not-bend-you-break",
-              "audio-path": "https://api.soundcloud.com/tracks/397518975/download?secret_token=s-0bUR6&client_id=DQskPX1pntALRzMp4HSxya3Mc0AO66Ro"
-            },
-            {
-              "audio-title": "anger-only-defeat-yourself",
-              "audio-path": "https://api.soundcloud.com/tracks/397518969/download?secret_token=s-PpSim&client_id=DQskPX1pntALRzMp4HSxya3Mc0AO66Ro"
-            },
-            {
-              "audio-title": "cannot-survive-on-strength-alone",
-              "audio-path": "https://api.soundcloud.com/tracks/397518960/download?secret_token=s-vP0aM&client_id=DQskPX1pntALRzMp4HSxya3Mc0AO66Ro"
-            },
-            {
-              "audio-title": "learn-from-your-mistakes",
-              "audio-path": "https://api.soundcloud.com/tracks/397518915/download?secret_token=s-DELs6&client_id=DQskPX1pntALRzMp4HSxya3Mc0AO66Ro"
-            },
-            {
-              "audio-title": "refuse-to-learn",
-              "audio-path": "https://api.soundcloud.com/tracks/397518882/download?secret_token=s-rGl6J&client_id=DQskPX1pntALRzMp4HSxya3Mc0AO66Ro"
-            },
-            {
-              "audio-title": "weakness-revealed",
-              "audio-path": "https://api.soundcloud.com/tracks/397518990/download?secret_token=s-w7ggX&client_id=DQskPX1pntALRzMp4HSxya3Mc0AO66Ro"
-            },
-            {
-              "audio-title": "reflect-upon-your-actions",
-              "audio-path": "https://api.soundcloud.com/tracks/397518888/download?secret_token=s-Othi5&client_id=DQskPX1pntALRzMp4HSxya3Mc0AO66Ro"
-            },
-            {
-              "audio-title": "win-this-round-genji",
-              "audio-path": "https://api.soundcloud.com/tracks/397518981/download?secret_token=s-wnEjP&client_id=DQskPX1pntALRzMp4HSxya3Mc0AO66Ro"
-            },
-            {
-              "audio-title": "master-still-has-a-few-tricks",
-              "audio-path": "https://api.soundcloud.com/tracks/397518900/download?secret_token=s-SdUEF&client_id=DQskPX1pntALRzMp4HSxya3Mc0AO66Ro"
-            },
-            {
-              "audio-title": "chaos-begets-more-chaos",
-              "audio-path": "https://api.soundcloud.com/tracks/397518957/download?secret_token=s-koWR9&client_id=DQskPX1pntALRzMp4HSxya3Mc0AO66Ro"
-            },
-            {
-              "audio-title": "move-too-quickly-overlook-much",
-              "audio-path": "https://api.soundcloud.com/tracks/397518894/download?secret_token=s-CVKao&client_id=DQskPX1pntALRzMp4HSxya3Mc0AO66Ro"
-            },
-            {
-              "audio-title": "justice-defined-by-hand-claims-it",
-              "audio-path": "https://api.soundcloud.com/tracks/397518918/download?secret_token=s-BPTBX&client_id=DQskPX1pntALRzMp4HSxya3Mc0AO66Ro"
-            },
-            {
-              "audio-title": "eager-to-learn-not-same-as-learning",
-              "audio-path": "https://api.soundcloud.com/tracks/397518954/download?secret_token=s-h2b0o&client_id=DQskPX1pntALRzMp4HSxya3Mc0AO66Ro"
-            },
-            {
-              "audio-title": "revenge-not-justice",
-              "audio-path": "https://api.soundcloud.com/tracks/397518876/download?secret_token=s-ipi7w&client_id=DQskPX1pntALRzMp4HSxya3Mc0AO66Ro"
-            },
-            {
-              "audio-title": "those-all-knowing-know-not-everything",
-              "audio-path": "https://api.soundcloud.com/tracks/397519008/download?secret_token=s-vf24s&client_id=DQskPX1pntALRzMp4HSxya3Mc0AO66Ro"
-            },
-            {
-              "audio-title": "ignorance-sure-path-failure",
-              "audio-path": "https://api.soundcloud.com/tracks/397518924/download?secret_token=s-BKEvD&client_id=DQskPX1pntALRzMp4HSxya3Mc0AO66Ro"
-            },
-            {
-              "audio-title": "joy-nor-remorse-amidst-death",
-              "audio-path": "https://api.soundcloud.com/tracks/397518921/download?secret_token=s-cqeUY&client_id=DQskPX1pntALRzMp4HSxya3Mc0AO66Ro"
-            },
-            {
-              "audio-title": "glimpse-of-mastery",
-              "audio-path": "https://api.soundcloud.com/tracks/397518939/download?secret_token=s-IiPEK&client_id=DQskPX1pntALRzMp4HSxya3Mc0AO66Ro"
-            },
-            {
-              "audio-title": "universe-shall-embrace-you",
-              "audio-path": "https://api.soundcloud.com/tracks/397519002/download?secret_token=s-0vHzC&client_id=DQskPX1pntALRzMp4HSxya3Mc0AO66Ro"
-            },
-            {
-              "audio-title": "a-pattern-developing",
-              "audio-path": "https://api.soundcloud.com/tracks/397519032/download?secret_token=s-pFr0j&client_id=DQskPX1pntALRzMp4HSxya3Mc0AO66Ro"
-            },
-            {
-              "audio-title": "turret-no-longer-exists",
-              "audio-path": "https://api.soundcloud.com/tracks/397519005/download?secret_token=s-ghWlx&client_id=DQskPX1pntALRzMp4HSxya3Mc0AO66Ro"
-            },
-            {
-              "audio-title": "teleporter-is-no-more",
-              "audio-path": "https://api.soundcloud.com/tracks/397519020/download?secret_token=s-yIPRO&client_id=DQskPX1pntALRzMp4HSxya3Mc0AO66Ro"
-            },
-            {
-              "audio-title": "shield-generator-destroyed",
-              "audio-path": "https://api.soundcloud.com/tracks/397519026/download?secret_token=s-7ucGu&client_id=DQskPX1pntALRzMp4HSxya3Mc0AO66Ro"
-            },
-            {
-              "audio-title": "the-tire-is-no-more",
-              "audio-path": "https://api.soundcloud.com/tracks/397519011/download?secret_token=s-gvqrw&client_id=DQskPX1pntALRzMp4HSxya3Mc0AO66Ro"
-            },
-            {
-              "audio-title": "lesson-in-humility",
-              "audio-path": "https://api.soundcloud.com/tracks/397518909/download?secret_token=s-XzOs5&client_id=DQskPX1pntALRzMp4HSxya3Mc0AO66Ro"
-            },
-            {
-              "audio-title": "cannot-survive-on-strength-alone",
-              "audio-path": "https://api.soundcloud.com/tracks/397518960/download?secret_token=s-vP0aM&client_id=DQskPX1pntALRzMp4HSxya3Mc0AO66Ro"
-            },
-            {
-              "audio-title": "refuse-to-learn",
-              "audio-path": "https://api.soundcloud.com/tracks/397518882/download?secret_token=s-rGl6J&client_id=DQskPX1pntALRzMp4HSxya3Mc0AO66Ro"
-            },
-            {
-              "audio-title": "well-done-genji",
-              "audio-path": "https://api.soundcloud.com/tracks/397518984/download?secret_token=s-It1xi&client_id=DQskPX1pntALRzMp4HSxya3Mc0AO66Ro"
-            },
-            {
-              "audio-title": "repetition-strive-for-perfection",
-              "audio-path": "https://api.soundcloud.com/tracks/397518879/download?secret_token=s-A9fyp&client_id=DQskPX1pntALRzMp4HSxya3Mc0AO66Ro"
-            },
-            {
-              "audio-title": "ushered-them-to-paradise",
-              "audio-path": "https://api.soundcloud.com/tracks/397518993/download?secret_token=s-5I258&client_id=DQskPX1pntALRzMp4HSxya3Mc0AO66Ro"
-            },
-            {
-              "audio-title": "hold-grudge-unhealthy",
-              "audio-path": "https://api.soundcloud.com/tracks/397518930/download?secret_token=s-aog4m&client_id=DQskPX1pntALRzMp4HSxya3Mc0AO66Ro"
-            },
-            {
-              "audio-title": "enemy-team-not-existence",
-              "audio-path": "https://api.soundcloud.com/tracks/397518945/download?secret_token=s-GoOI2&client_id=DQskPX1pntALRzMp4HSxya3Mc0AO66Ro"
-            },
-            {
-              "audio-title": "enemies-eliminated-will-return",
-              "audio-path": "https://api.soundcloud.com/tracks/397518948/download?secret_token=s-Ud0WX&client_id=DQskPX1pntALRzMp4HSxya3Mc0AO66Ro"
-            }
-          ]
-      },
-      {
-        "tab": "Non-Verbal",
-        "audio":
-          [
-            {
-              "audio-title": "attack-1",
-              "audio-path": "https://api.soundcloud.com/tracks/397111293/download?secret_token=s-fl1Yv&client_id=DQskPX1pntALRzMp4HSxya3Mc0AO66Ro"
-            },
-            {
-              "audio-title": "attack-2",
-              "audio-path": "https://api.soundcloud.com/tracks/397111287/download?secret_token=s-gTbM7&client_id=DQskPX1pntALRzMp4HSxya3Mc0AO66Ro"
-            },
-            {
-              "audio-title": "attack-3",
-              "audio-path": "https://api.soundcloud.com/tracks/397111281/download?secret_token=s-uwJGm&client_id=DQskPX1pntALRzMp4HSxya3Mc0AO66Ro"
-            },
-            {
-              "audio-title": "damaged-1",
-              "audio-path": "https://api.soundcloud.com/tracks/397111254/download?secret_token=s-bmWfC&client_id=DQskPX1pntALRzMp4HSxya3Mc0AO66Ro"
-            },
-            {
-              "audio-title": "damaged-2",
-              "audio-path": "https://api.soundcloud.com/tracks/397111251/download?secret_token=s-8itb8&client_id=DQskPX1pntALRzMp4HSxya3Mc0AO66Ro"
-            },
-            {
-              "audio-title": "damaged-3",
-              "audio-path": "https://api.soundcloud.com/tracks/397111245/download?secret_token=s-Lpd9y&client_id=DQskPX1pntALRzMp4HSxya3Mc0AO66Ro"
-            },
-            {
-              "audio-title": "damaged-4",
-              "audio-path": "https://api.soundcloud.com/tracks/397111242/download?secret_token=s-nbFy9&client_id=DQskPX1pntALRzMp4HSxya3Mc0AO66Ro"
-            },
-            {
-              "audio-title": "dying",
-              "audio-path": "https://api.soundcloud.com/tracks/397111233/download?secret_token=s-GkRTY&client_id=DQskPX1pntALRzMp4HSxya3Mc0AO66Ro"
-            },
-            {
-              "audio-title": "chuckle",
-              "audio-path": "https://api.soundcloud.com/tracks/397111275/download?secret_token=s-lRsel&client_id=DQskPX1pntALRzMp4HSxya3Mc0AO66Ro"
-            },
-            {
-              "audio-title": "laughing-1",
-              "audio-path": "https://api.soundcloud.com/tracks/397111320/download?secret_token=s-9OBiT&client_id=DQskPX1pntALRzMp4HSxya3Mc0AO66Ro"
-            },
-            {
-              "audio-title": "laughing-2",
-              "audio-path": "https://api.soundcloud.com/tracks/397111305/download?secret_token=s-OPrAp&client_id=DQskPX1pntALRzMp4HSxya3Mc0AO66Ro"
-            },
-            {
-              "audio-title": "deep-sigh",
-              "audio-path": "https://api.soundcloud.com/tracks/397111236/download?secret_token=s-NKA6Z&client_id=DQskPX1pntALRzMp4HSxya3Mc0AO66Ro"
-            },
-            {
-              "audio-title": "coughing-1",
-              "audio-path": "https://api.soundcloud.com/tracks/397111269/download?secret_token=s-al3Tc&client_id=DQskPX1pntALRzMp4HSxya3Mc0AO66Ro"
-            },
-            {
-              "audio-title": "coughing-2",
-              "audio-path": "https://api.soundcloud.com/tracks/397111260/download?secret_token=s-nbldm&client_id=DQskPX1pntALRzMp4HSxya3Mc0AO66Ro"
-            },
-            {
-              "audio-title": "coughing-3",
-              "audio-path": "https://api.soundcloud.com/tracks/397111257/download?secret_token=s-poBf2&client_id=DQskPX1pntALRzMp4HSxya3Mc0AO66Ro"
-            },
-            {
-              "audio-title": "falling-1",
-              "audio-path": "https://api.soundcloud.com/tracks/397111215/download?secret_token=s-xQCRr&client_id=DQskPX1pntALRzMp4HSxya3Mc0AO66Ro"
-            },
-            {
-              "audio-title": "falling-2",
-              "audio-path": "https://api.soundcloud.com/tracks/397111212/download?secret_token=s-X0wS3&client_id=DQskPX1pntALRzMp4HSxya3Mc0AO66Ro"
-            },
-            {
-              "audio-title": "breathing",
-              "audio-path": "https://api.soundcloud.com/tracks/397111278/download?secret_token=s-yl77j&client_id=DQskPX1pntALRzMp4HSxya3Mc0AO66Ro"
-            },
-            {
-              "audio-title": "exhale",
-              "audio-path": "https://api.soundcloud.com/tracks/397111221/download?secret_token=s-6bkiS&client_id=DQskPX1pntALRzMp4HSxya3Mc0AO66Ro"
-            },
-            {
-              "audio-title": "inhale-exhale",
-              "audio-path": "https://api.soundcloud.com/tracks/397111329/download?secret_token=s-T0FQy&client_id=DQskPX1pntALRzMp4HSxya3Mc0AO66Ro"
-            },
-            {
-              "audio-title": "ohm",
-              "audio-path": "https://api.soundcloud.com/tracks/397152612/download?secret_token=s-LTniI&client_id=DQskPX1pntALRzMp4HSxya3Mc0AO66Ro"
-            },
-            {
-              "audio-title": "groan",
-              "audio-path": "https://api.soundcloud.com/tracks/397111341/download?secret_token=s-t8R5D&client_id=DQskPX1pntALRzMp4HSxya3Mc0AO66Ro"
-            },
-            {
-              "audio-title": "aching",
-              "audio-path": "https://api.soundcloud.com/tracks/397111302/download?secret_token=s-2OetY&client_id=DQskPX1pntALRzMp4HSxya3Mc0AO66Ro"
-            },
-            {
-              "audio-title": "meditating",
-              "audio-path": "https://api.soundcloud.com/tracks/397111317/download?secret_token=s-8XKEk&client_id=DQskPX1pntALRzMp4HSxya3Mc0AO66Ro"
-            },
-            {
-              "audio-title": "gasp",
-              "audio-path": "https://api.soundcloud.com/tracks/397111350/download?secret_token=s-p9oPb&client_id=DQskPX1pntALRzMp4HSxya3Mc0AO66Ro"
-            },
-            {
-              "audio-title": "paranoid",
-              "audio-path": "https://api.soundcloud.com/tracks/397111311/download?secret_token=s-33d9b&client_id=DQskPX1pntALRzMp4HSxya3Mc0AO66Ro"
-            },
-            {
-              "audio-title": "eating-hot-ramen",
-              "audio-path": "https://api.soundcloud.com/tracks/397111224/download?secret_token=s-HouDU&client_id=DQskPX1pntALRzMp4HSxya3Mc0AO66Ro"
-            },
-            {
-              "audio-title": "freezing-1",
-              "audio-path": "https://api.soundcloud.com/tracks/397111209/download?secret_token=s-Gs4Yz&client_id=DQskPX1pntALRzMp4HSxya3Mc0AO66Ro"
-            },
-            {
-              "audio-title": "freezing-2",
-              "audio-path": "https://api.soundcloud.com/tracks/397111362/download?secret_token=s-JEaWg&client_id=DQskPX1pntALRzMp4HSxya3Mc0AO66Ro"
-            },
-            {
-              "audio-title": "freezing-3",
-              "audio-path": "https://api.soundcloud.com/tracks/397111356/download?secret_token=s-Ie5Kq&client_id=DQskPX1pntALRzMp4HSxya3Mc0AO66Ro"
-            }
-          ]
-      },
-      {
-        "tab": "Voice-Lines",
-        "audio":
-          [
-            {
-              "audio-title": "we-are-in-harmony",
-              "audio-path": "https://api.soundcloud.com/tracks/397561602/download?secret_token=s-0tV30&client_id=DQskPX1pntALRzMp4HSxya3Mc0AO66Ro"
-            },
-            {
-              "audio-title": "death-is-whimsicle-today",
-              "audio-path": "https://api.soundcloud.com/tracks/397561596/download?secret_token=s-n0x0n&client_id=DQskPX1pntALRzMp4HSxya3Mc0AO66Ro"
-            },
-            {
-              "audio-title": "do-i-think",
-              "audio-path": "https://api.soundcloud.com/tracks/397561593/download?secret_token=s-GJ4Az&client_id=DQskPX1pntALRzMp4HSxya3Mc0AO66Ro"
-            },
-            {
-              "audio-title": "free-your-mind",
-              "audio-path": "https://api.soundcloud.com/tracks/397561566/download?secret_token=s-5vWQB&client_id=DQskPX1pntALRzMp4HSxya3Mc0AO66Ro"
-            },
-            {
-              "audio-title": "i-dreamt-i-was-a-butterfly",
-              "audio-path": "https://api.soundcloud.com/tracks/397561656/download?secret_token=s-AlosZ&client_id=DQskPX1pntALRzMp4HSxya3Mc0AO66Ro"
-            },
-            {
-              "audio-title": "i-think-therefore-i-am",
-              "audio-path": "https://api.soundcloud.com/tracks/397561647/download?secret_token=s-ccSC9&client_id=DQskPX1pntALRzMp4HSxya3Mc0AO66Ro"
-            },
-            {
-              "audio-title": "i-will-not-juggle",
-              "audio-path": "https://api.soundcloud.com/tracks/397561641/download?secret_token=s-rqoW4&client_id=DQskPX1pntALRzMp4HSxya3Mc0AO66Ro"
-            },
-            {
-              "audio-title": "life-more-than-ones-and-zeros",
-              "audio-path": "https://api.soundcloud.com/tracks/397561629/download?secret_token=s-SYsUI&client_id=DQskPX1pntALRzMp4HSxya3Mc0AO66Ro"
-            },
-            {
-              "audio-title": "peace-and-blessings",
-              "audio-path": "https://api.soundcloud.com/tracks/397561617/download?secret_token=s-5aDug&client_id=DQskPX1pntALRzMp4HSxya3Mc0AO66Ro"
-            },
-            {
-              "audio-title": "the-iris-embraces-you",
-              "audio-path": "https://api.soundcloud.com/tracks/397561614/download?secret_token=s-Uo1BX&client_id=DQskPX1pntALRzMp4HSxya3Mc0AO66Ro"
-            },
-            {
-              "audio-title": "always-strive-for-improvement",
-              "audio-path": "https://api.soundcloud.com/tracks/397561599/download?secret_token=s-rHcqP&client_id=DQskPX1pntALRzMp4HSxya3Mc0AO66Ro"
-            },
-            {
-              "audio-title": "trick-or-treat",
-              "audio-path": "https://api.soundcloud.com/tracks/397561605/download?secret_token=s-TUucq&client_id=DQskPX1pntALRzMp4HSxya3Mc0AO66Ro"
-            },
-            {
-              "audio-title": "frightening",
-              "audio-path": "https://api.soundcloud.com/tracks/397561563/download?secret_token=s-Onp6b&client_id=DQskPX1pntALRzMp4HSxya3Mc0AO66Ro"
-            },
-            {
-              "audio-title": "no-snowflake-falls-wrong-place",
-              "audio-path": "https://api.soundcloud.com/tracks/397561626/download?secret_token=s-m1B2X&client_id=DQskPX1pntALRzMp4HSxya3Mc0AO66Ro"
-            },
-            {
-              "audio-title": "joy-to-the-world",
-              "audio-path": "https://api.soundcloud.com/tracks/397561635/download?secret_token=s-PYPzq&client_id=DQskPX1pntALRzMp4HSxya3Mc0AO66Ro"
-            },
-            {
-              "audio-title": "every-rooster-crows-own-pen",
-              "audio-path": "https://api.soundcloud.com/tracks/397561584/download?secret_token=s-vawOn&client_id=DQskPX1pntALRzMp4HSxya3Mc0AO66Ro"
-            },
-            {
-              "audio-title": "path-to-enlightenment",
-              "audio-path": "https://api.soundcloud.com/tracks/397561620/download?secret_token=s-4IkXM&client_id=DQskPX1pntALRzMp4HSxya3Mc0AO66Ro"
-            },
-            {
-              "audio-title": "if-do-not-change-direction",
-              "audio-path": "https://api.soundcloud.com/tracks/397561650/download?secret_token=s-UwYKR&client_id=DQskPX1pntALRzMp4HSxya3Mc0AO66Ro"
-            },
-            {
-              "audio-title": "how-disappointing",
-              "audio-path": "https://api.soundcloud.com/tracks/397561659/download?secret_token=s-Z3qf2&client_id=DQskPX1pntALRzMp4HSxya3Mc0AO66Ro"
-            },
-            {
-              "audio-title": "existence-is-mysterious",
-              "audio-path": "https://api.soundcloud.com/tracks/397561575/download?secret_token=s-XTv4v&client_id=DQskPX1pntALRzMp4HSxya3Mc0AO66Ro"
-            }
-          ]
-      }
-    ]
+  [
+    {
+      "tab": "Abilities",
+      "audio":
+      [
+        {
+          "audio-title": "pass-into-iris",
+          "audio-path": "https://api.soundcloud.com/tracks/397503120/download?secret_token=s-JS5Jg&client_id=DQskPX1pntALRzMp4HSxya3Mc0AO66Ro"
+        },
+        {
+          "audio-title": "gaze-into-iris",
+          "audio-path": "https://api.soundcloud.com/tracks/397503138/download?secret_token=s-1lD4E&client_id=DQskPX1pntALRzMp4HSxya3Mc0AO66Ro"
+        },
+        {
+          "audio-title": "stare-into-iris",
+          "audio-path": "https://api.soundcloud.com/tracks/397503114/download?secret_token=s-BWrfb&client_id=DQskPX1pntALRzMp4HSxya3Mc0AO66Ro"
+        },
+        {
+          "audio-title": "experience-tranquility",
+          "audio-path": "https://api.soundcloud.com/tracks/397503147/download?secret_token=s-nxxux&client_id=DQskPX1pntALRzMp4HSxya3Mc0AO66Ro"
+        },
+        {
+          "audio-title": "embrace-tranquility",
+          "audio-path": "https://api.soundcloud.com/tracks/397503150/download?secret_token=s-qGYqa&client_id=DQskPX1pntALRzMp4HSxya3Mc0AO66Ro"
+        },
+        {
+          "audio-title": "be-reborn",
+          "audio-path": "https://api.soundcloud.com/tracks/397503039/download?secret_token=s-JVG20&client_id=DQskPX1pntALRzMp4HSxya3Mc0AO66Ro"
+        },
+        {
+          "audio-title": "be-one-with-universe",
+          "audio-path": "https://api.soundcloud.com/tracks/397503045/download?secret_token=s-hGtUX&client_id=DQskPX1pntALRzMp4HSxya3Mc0AO66Ro"
+        },
+        {
+          "audio-title": "open-your-mind",
+          "audio-path": "https://api.soundcloud.com/tracks/397503126/download?secret_token=s-qDNOn&client_id=DQskPX1pntALRzMp4HSxya3Mc0AO66Ro"
+        },
+        {
+          "audio-title": "walk-in-harmony",
+          "audio-path": "https://api.soundcloud.com/tracks/397503096/download?secret_token=s-0Xgzl&client_id=DQskPX1pntALRzMp4HSxya3Mc0AO66Ro"
+        },
+        {
+          "audio-title": "we-are-as-one",
+          "audio-path": "https://api.soundcloud.com/tracks/397503093/download?secret_token=s-UlWzi&client_id=DQskPX1pntALRzMp4HSxya3Mc0AO66Ro"
+        },
+        {
+          "audio-title": "we-are-as-one-my-friend",
+          "audio-path": "https://api.soundcloud.com/tracks/397503078/download?secret_token=s-fhPUu&client_id=DQskPX1pntALRzMp4HSxya3Mc0AO66Ro"
+        },
+        {
+          "audio-title": "bask-in-shadow-doubt",
+          "audio-path": "https://api.soundcloud.com/tracks/397503057/download?secret_token=s-3RM7W&client_id=DQskPX1pntALRzMp4HSxya3Mc0AO66Ro"
+        },
+        {
+          "audio-title": "darkness-falls",
+          "audio-path": "https://api.soundcloud.com/tracks/397503159/download?secret_token=s-dQ2sg&client_id=DQskPX1pntALRzMp4HSxya3Mc0AO66Ro"
+        },
+        {
+          "audio-title": "chaos-within-you",
+          "audio-path": "https://api.soundcloud.com/tracks/397503162/download?secret_token=s-bff9M&client_id=DQskPX1pntALRzMp4HSxya3Mc0AO66Ro"
+        },
+        {
+          "audio-title": "disquiet-in-your-soul",
+          "audio-path": "https://api.soundcloud.com/tracks/397503153/download?secret_token=s-sJWgu&client_id=DQskPX1pntALRzMp4HSxya3Mc0AO66Ro"
+        },
+        {
+          "audio-title": "your-own-worst-enemy",
+          "audio-path": "https://api.soundcloud.com/tracks/397503066/download?secret_token=s-VqFs6&client_id=DQskPX1pntALRzMp4HSxya3Mc0AO66Ro"
+        },
+        {
+          "audio-title": "know-doubt-plague-you",
+          "audio-path": "https://api.soundcloud.com/tracks/397503129/download?secret_token=s-Adswn&client_id=DQskPX1pntALRzMp4HSxya3Mc0AO66Ro"
+        },
+        {
+          "audio-title": "you-have-much-to-learn",
+          "audio-path": "https://api.soundcloud.com/tracks/397503075/download?secret_token=s-dwe6x&client_id=DQskPX1pntALRzMp4HSxya3Mc0AO66Ro"
+        },
+        {
+          "audio-title": "greatest-enemy-lies-within",
+          "audio-path": "https://api.soundcloud.com/tracks/397503132/download?secret_token=s-1gRaU&client_id=DQskPX1pntALRzMp4HSxya3Mc0AO66Ro"
+        },
+        {
+          "audio-title": "ready-for-transcendence",
+          "audio-path": "https://api.soundcloud.com/tracks/397503117/download?secret_token=s-3izs6&client_id=DQskPX1pntALRzMp4HSxya3Mc0AO66Ro"
+        }
+      ]
+    },
+    {
+      "tab": "Eliminations",
+      "audio":
+      [
+        {
+          "audio-title": "lesson-in-humility",
+          "audio-path": "https://api.soundcloud.com/tracks/397518909/download?secret_token=s-XzOs5&client_id=DQskPX1pntALRzMp4HSxya3Mc0AO66Ro"
+        },
+        {
+          "audio-title": "begins-in-ignorance",
+          "audio-path": "https://api.soundcloud.com/tracks/397518966/download?secret_token=s-JuggI&client_id=DQskPX1pntALRzMp4HSxya3Mc0AO66Ro"
+        },
+        {
+          "audio-title": "hatred-not-strategy",
+          "audio-path": "https://api.soundcloud.com/tracks/397518936/download?secret_token=s-lIfOH&client_id=DQskPX1pntALRzMp4HSxya3Mc0AO66Ro"
+        },
+        {
+          "audio-title": "you-do-not-bend-you-break",
+          "audio-path": "https://api.soundcloud.com/tracks/397518975/download?secret_token=s-0bUR6&client_id=DQskPX1pntALRzMp4HSxya3Mc0AO66Ro"
+        },
+        {
+          "audio-title": "anger-only-defeat-yourself",
+          "audio-path": "https://api.soundcloud.com/tracks/397518969/download?secret_token=s-PpSim&client_id=DQskPX1pntALRzMp4HSxya3Mc0AO66Ro"
+        },
+        {
+          "audio-title": "cannot-survive-on-strength-alone",
+          "audio-path": "https://api.soundcloud.com/tracks/397518960/download?secret_token=s-vP0aM&client_id=DQskPX1pntALRzMp4HSxya3Mc0AO66Ro"
+        },
+        {
+          "audio-title": "learn-from-your-mistakes",
+          "audio-path": "https://api.soundcloud.com/tracks/397518915/download?secret_token=s-DELs6&client_id=DQskPX1pntALRzMp4HSxya3Mc0AO66Ro"
+        },
+        {
+          "audio-title": "refuse-to-learn",
+          "audio-path": "https://api.soundcloud.com/tracks/397518882/download?secret_token=s-rGl6J&client_id=DQskPX1pntALRzMp4HSxya3Mc0AO66Ro"
+        },
+        {
+          "audio-title": "weakness-revealed",
+          "audio-path": "https://api.soundcloud.com/tracks/397518990/download?secret_token=s-w7ggX&client_id=DQskPX1pntALRzMp4HSxya3Mc0AO66Ro"
+        },
+        {
+          "audio-title": "reflect-upon-your-actions",
+          "audio-path": "https://api.soundcloud.com/tracks/397518888/download?secret_token=s-Othi5&client_id=DQskPX1pntALRzMp4HSxya3Mc0AO66Ro"
+        },
+        {
+          "audio-title": "win-this-round-genji",
+          "audio-path": "https://api.soundcloud.com/tracks/397518981/download?secret_token=s-wnEjP&client_id=DQskPX1pntALRzMp4HSxya3Mc0AO66Ro"
+        },
+        {
+          "audio-title": "master-still-has-a-few-tricks",
+          "audio-path": "https://api.soundcloud.com/tracks/397518900/download?secret_token=s-SdUEF&client_id=DQskPX1pntALRzMp4HSxya3Mc0AO66Ro"
+        },
+        {
+          "audio-title": "chaos-begets-more-chaos",
+          "audio-path": "https://api.soundcloud.com/tracks/397518957/download?secret_token=s-koWR9&client_id=DQskPX1pntALRzMp4HSxya3Mc0AO66Ro"
+        },
+        {
+          "audio-title": "move-too-quickly-overlook-much",
+          "audio-path": "https://api.soundcloud.com/tracks/397518894/download?secret_token=s-CVKao&client_id=DQskPX1pntALRzMp4HSxya3Mc0AO66Ro"
+        },
+        {
+          "audio-title": "justice-defined-by-hand-claims-it",
+          "audio-path": "https://api.soundcloud.com/tracks/397518918/download?secret_token=s-BPTBX&client_id=DQskPX1pntALRzMp4HSxya3Mc0AO66Ro"
+        },
+        {
+          "audio-title": "eager-to-learn-not-same-as-learning",
+          "audio-path": "https://api.soundcloud.com/tracks/397518954/download?secret_token=s-h2b0o&client_id=DQskPX1pntALRzMp4HSxya3Mc0AO66Ro"
+        },
+        {
+          "audio-title": "revenge-not-justice",
+          "audio-path": "https://api.soundcloud.com/tracks/397518876/download?secret_token=s-ipi7w&client_id=DQskPX1pntALRzMp4HSxya3Mc0AO66Ro"
+        },
+        {
+          "audio-title": "those-all-knowing-know-not-everything",
+          "audio-path": "https://api.soundcloud.com/tracks/397519008/download?secret_token=s-vf24s&client_id=DQskPX1pntALRzMp4HSxya3Mc0AO66Ro"
+        },
+        {
+          "audio-title": "ignorance-sure-path-failure",
+          "audio-path": "https://api.soundcloud.com/tracks/397518924/download?secret_token=s-BKEvD&client_id=DQskPX1pntALRzMp4HSxya3Mc0AO66Ro"
+        },
+        {
+          "audio-title": "joy-nor-remorse-amidst-death",
+          "audio-path": "https://api.soundcloud.com/tracks/397518921/download?secret_token=s-cqeUY&client_id=DQskPX1pntALRzMp4HSxya3Mc0AO66Ro"
+        },
+        {
+          "audio-title": "glimpse-of-mastery",
+          "audio-path": "https://api.soundcloud.com/tracks/397518939/download?secret_token=s-IiPEK&client_id=DQskPX1pntALRzMp4HSxya3Mc0AO66Ro"
+        },
+        {
+          "audio-title": "universe-shall-embrace-you",
+          "audio-path": "https://api.soundcloud.com/tracks/397519002/download?secret_token=s-0vHzC&client_id=DQskPX1pntALRzMp4HSxya3Mc0AO66Ro"
+        },
+        {
+          "audio-title": "a-pattern-developing",
+          "audio-path": "https://api.soundcloud.com/tracks/397519032/download?secret_token=s-pFr0j&client_id=DQskPX1pntALRzMp4HSxya3Mc0AO66Ro"
+        },
+        {
+          "audio-title": "turret-no-longer-exists",
+          "audio-path": "https://api.soundcloud.com/tracks/397519005/download?secret_token=s-ghWlx&client_id=DQskPX1pntALRzMp4HSxya3Mc0AO66Ro"
+        },
+        {
+          "audio-title": "teleporter-is-no-more",
+          "audio-path": "https://api.soundcloud.com/tracks/397519020/download?secret_token=s-yIPRO&client_id=DQskPX1pntALRzMp4HSxya3Mc0AO66Ro"
+        },
+        {
+          "audio-title": "shield-generator-destroyed",
+          "audio-path": "https://api.soundcloud.com/tracks/397519026/download?secret_token=s-7ucGu&client_id=DQskPX1pntALRzMp4HSxya3Mc0AO66Ro"
+        },
+        {
+          "audio-title": "the-tire-is-no-more",
+          "audio-path": "https://api.soundcloud.com/tracks/397519011/download?secret_token=s-gvqrw&client_id=DQskPX1pntALRzMp4HSxya3Mc0AO66Ro"
+        },
+        {
+          "audio-title": "lesson-in-humility",
+          "audio-path": "https://api.soundcloud.com/tracks/397518909/download?secret_token=s-XzOs5&client_id=DQskPX1pntALRzMp4HSxya3Mc0AO66Ro"
+        },
+        {
+          "audio-title": "cannot-survive-on-strength-alone",
+          "audio-path": "https://api.soundcloud.com/tracks/397518960/download?secret_token=s-vP0aM&client_id=DQskPX1pntALRzMp4HSxya3Mc0AO66Ro"
+        },
+        {
+          "audio-title": "refuse-to-learn",
+          "audio-path": "https://api.soundcloud.com/tracks/397518882/download?secret_token=s-rGl6J&client_id=DQskPX1pntALRzMp4HSxya3Mc0AO66Ro"
+        },
+        {
+          "audio-title": "well-done-genji",
+          "audio-path": "https://api.soundcloud.com/tracks/397518984/download?secret_token=s-It1xi&client_id=DQskPX1pntALRzMp4HSxya3Mc0AO66Ro"
+        },
+        {
+          "audio-title": "repetition-strive-for-perfection",
+          "audio-path": "https://api.soundcloud.com/tracks/397518879/download?secret_token=s-A9fyp&client_id=DQskPX1pntALRzMp4HSxya3Mc0AO66Ro"
+        },
+        {
+          "audio-title": "ushered-them-to-paradise",
+          "audio-path": "https://api.soundcloud.com/tracks/397518993/download?secret_token=s-5I258&client_id=DQskPX1pntALRzMp4HSxya3Mc0AO66Ro"
+        },
+        {
+          "audio-title": "hold-grudge-unhealthy",
+          "audio-path": "https://api.soundcloud.com/tracks/397518930/download?secret_token=s-aog4m&client_id=DQskPX1pntALRzMp4HSxya3Mc0AO66Ro"
+        },
+        {
+          "audio-title": "enemy-team-not-existence",
+          "audio-path": "https://api.soundcloud.com/tracks/397518945/download?secret_token=s-GoOI2&client_id=DQskPX1pntALRzMp4HSxya3Mc0AO66Ro"
+        },
+        {
+          "audio-title": "enemies-eliminated-will-return",
+          "audio-path": "https://api.soundcloud.com/tracks/397518948/download?secret_token=s-Ud0WX&client_id=DQskPX1pntALRzMp4HSxya3Mc0AO66Ro"
+        }
+      ]
+    },
+    {
+      "tab": "Non-Verbal",
+      "audio":
+      [
+        {
+          "audio-title": "attack-1",
+          "audio-path": "https://api.soundcloud.com/tracks/397111293/download?secret_token=s-fl1Yv&client_id=DQskPX1pntALRzMp4HSxya3Mc0AO66Ro"
+        },
+        {
+          "audio-title": "attack-2",
+          "audio-path": "https://api.soundcloud.com/tracks/397111287/download?secret_token=s-gTbM7&client_id=DQskPX1pntALRzMp4HSxya3Mc0AO66Ro"
+        },
+        {
+          "audio-title": "attack-3",
+          "audio-path": "https://api.soundcloud.com/tracks/397111281/download?secret_token=s-uwJGm&client_id=DQskPX1pntALRzMp4HSxya3Mc0AO66Ro"
+        },
+        {
+          "audio-title": "damaged-1",
+          "audio-path": "https://api.soundcloud.com/tracks/397111254/download?secret_token=s-bmWfC&client_id=DQskPX1pntALRzMp4HSxya3Mc0AO66Ro"
+        },
+        {
+          "audio-title": "damaged-2",
+          "audio-path": "https://api.soundcloud.com/tracks/397111251/download?secret_token=s-8itb8&client_id=DQskPX1pntALRzMp4HSxya3Mc0AO66Ro"
+        },
+        {
+          "audio-title": "damaged-3",
+          "audio-path": "https://api.soundcloud.com/tracks/397111245/download?secret_token=s-Lpd9y&client_id=DQskPX1pntALRzMp4HSxya3Mc0AO66Ro"
+        },
+        {
+          "audio-title": "damaged-4",
+          "audio-path": "https://api.soundcloud.com/tracks/397111242/download?secret_token=s-nbFy9&client_id=DQskPX1pntALRzMp4HSxya3Mc0AO66Ro"
+        },
+        {
+          "audio-title": "dying",
+          "audio-path": "https://api.soundcloud.com/tracks/397111233/download?secret_token=s-GkRTY&client_id=DQskPX1pntALRzMp4HSxya3Mc0AO66Ro"
+        },
+        {
+          "audio-title": "chuckle",
+          "audio-path": "https://api.soundcloud.com/tracks/397111275/download?secret_token=s-lRsel&client_id=DQskPX1pntALRzMp4HSxya3Mc0AO66Ro"
+        },
+        {
+          "audio-title": "laughing-1",
+          "audio-path": "https://api.soundcloud.com/tracks/397111320/download?secret_token=s-9OBiT&client_id=DQskPX1pntALRzMp4HSxya3Mc0AO66Ro"
+        },
+        {
+          "audio-title": "laughing-2",
+          "audio-path": "https://api.soundcloud.com/tracks/397111305/download?secret_token=s-OPrAp&client_id=DQskPX1pntALRzMp4HSxya3Mc0AO66Ro"
+        },
+        {
+          "audio-title": "deep-sigh",
+          "audio-path": "https://api.soundcloud.com/tracks/397111236/download?secret_token=s-NKA6Z&client_id=DQskPX1pntALRzMp4HSxya3Mc0AO66Ro"
+        },
+        {
+          "audio-title": "coughing-1",
+          "audio-path": "https://api.soundcloud.com/tracks/397111269/download?secret_token=s-al3Tc&client_id=DQskPX1pntALRzMp4HSxya3Mc0AO66Ro"
+        },
+        {
+          "audio-title": "coughing-2",
+          "audio-path": "https://api.soundcloud.com/tracks/397111260/download?secret_token=s-nbldm&client_id=DQskPX1pntALRzMp4HSxya3Mc0AO66Ro"
+        },
+        {
+          "audio-title": "coughing-3",
+          "audio-path": "https://api.soundcloud.com/tracks/397111257/download?secret_token=s-poBf2&client_id=DQskPX1pntALRzMp4HSxya3Mc0AO66Ro"
+        },
+        {
+          "audio-title": "falling-1",
+          "audio-path": "https://api.soundcloud.com/tracks/397111215/download?secret_token=s-xQCRr&client_id=DQskPX1pntALRzMp4HSxya3Mc0AO66Ro"
+        },
+        {
+          "audio-title": "falling-2",
+          "audio-path": "https://api.soundcloud.com/tracks/397111212/download?secret_token=s-X0wS3&client_id=DQskPX1pntALRzMp4HSxya3Mc0AO66Ro"
+        },
+        {
+          "audio-title": "breathing",
+          "audio-path": "https://api.soundcloud.com/tracks/397111278/download?secret_token=s-yl77j&client_id=DQskPX1pntALRzMp4HSxya3Mc0AO66Ro"
+        },
+        {
+          "audio-title": "exhale",
+          "audio-path": "https://api.soundcloud.com/tracks/397111221/download?secret_token=s-6bkiS&client_id=DQskPX1pntALRzMp4HSxya3Mc0AO66Ro"
+        },
+        {
+          "audio-title": "inhale-exhale",
+          "audio-path": "https://api.soundcloud.com/tracks/397111329/download?secret_token=s-T0FQy&client_id=DQskPX1pntALRzMp4HSxya3Mc0AO66Ro"
+        },
+        {
+          "audio-title": "ohm",
+          "audio-path": "https://api.soundcloud.com/tracks/397152612/download?secret_token=s-LTniI&client_id=DQskPX1pntALRzMp4HSxya3Mc0AO66Ro"
+        },
+        {
+          "audio-title": "groan",
+          "audio-path": "https://api.soundcloud.com/tracks/397111341/download?secret_token=s-t8R5D&client_id=DQskPX1pntALRzMp4HSxya3Mc0AO66Ro"
+        },
+        {
+          "audio-title": "aching",
+          "audio-path": "https://api.soundcloud.com/tracks/397111302/download?secret_token=s-2OetY&client_id=DQskPX1pntALRzMp4HSxya3Mc0AO66Ro"
+        },
+        {
+          "audio-title": "meditating",
+          "audio-path": "https://api.soundcloud.com/tracks/397111317/download?secret_token=s-8XKEk&client_id=DQskPX1pntALRzMp4HSxya3Mc0AO66Ro"
+        },
+        {
+          "audio-title": "gasp",
+          "audio-path": "https://api.soundcloud.com/tracks/397111350/download?secret_token=s-p9oPb&client_id=DQskPX1pntALRzMp4HSxya3Mc0AO66Ro"
+        },
+        {
+          "audio-title": "paranoid",
+          "audio-path": "https://api.soundcloud.com/tracks/397111311/download?secret_token=s-33d9b&client_id=DQskPX1pntALRzMp4HSxya3Mc0AO66Ro"
+        },
+        {
+          "audio-title": "eating-hot-ramen",
+          "audio-path": "https://api.soundcloud.com/tracks/397111224/download?secret_token=s-HouDU&client_id=DQskPX1pntALRzMp4HSxya3Mc0AO66Ro"
+        },
+        {
+          "audio-title": "freezing-1",
+          "audio-path": "https://api.soundcloud.com/tracks/397111209/download?secret_token=s-Gs4Yz&client_id=DQskPX1pntALRzMp4HSxya3Mc0AO66Ro"
+        },
+        {
+          "audio-title": "freezing-2",
+          "audio-path": "https://api.soundcloud.com/tracks/397111362/download?secret_token=s-JEaWg&client_id=DQskPX1pntALRzMp4HSxya3Mc0AO66Ro"
+        },
+        {
+          "audio-title": "freezing-3",
+          "audio-path": "https://api.soundcloud.com/tracks/397111356/download?secret_token=s-Ie5Kq&client_id=DQskPX1pntALRzMp4HSxya3Mc0AO66Ro"
+        }
+      ]
+    },
+    {
+      "tab": "Voice-Lines",
+      "audio":
+      [
+        {
+          "audio-title": "we-are-in-harmony",
+          "audio-path": "https://api.soundcloud.com/tracks/397561602/download?secret_token=s-0tV30&client_id=DQskPX1pntALRzMp4HSxya3Mc0AO66Ro"
+        },
+        {
+          "audio-title": "death-is-whimsicle-today",
+          "audio-path": "https://api.soundcloud.com/tracks/397561596/download?secret_token=s-n0x0n&client_id=DQskPX1pntALRzMp4HSxya3Mc0AO66Ro"
+        },
+        {
+          "audio-title": "do-i-think",
+          "audio-path": "https://api.soundcloud.com/tracks/397561593/download?secret_token=s-GJ4Az&client_id=DQskPX1pntALRzMp4HSxya3Mc0AO66Ro"
+        },
+        {
+          "audio-title": "free-your-mind",
+          "audio-path": "https://api.soundcloud.com/tracks/397561566/download?secret_token=s-5vWQB&client_id=DQskPX1pntALRzMp4HSxya3Mc0AO66Ro"
+        },
+        {
+          "audio-title": "i-dreamt-i-was-a-butterfly",
+          "audio-path": "https://api.soundcloud.com/tracks/397561656/download?secret_token=s-AlosZ&client_id=DQskPX1pntALRzMp4HSxya3Mc0AO66Ro"
+        },
+        {
+          "audio-title": "i-think-therefore-i-am",
+          "audio-path": "https://api.soundcloud.com/tracks/397561647/download?secret_token=s-ccSC9&client_id=DQskPX1pntALRzMp4HSxya3Mc0AO66Ro"
+        },
+        {
+          "audio-title": "i-will-not-juggle",
+          "audio-path": "https://api.soundcloud.com/tracks/397561641/download?secret_token=s-rqoW4&client_id=DQskPX1pntALRzMp4HSxya3Mc0AO66Ro"
+        },
+        {
+          "audio-title": "life-more-than-ones-and-zeros",
+          "audio-path": "https://api.soundcloud.com/tracks/397561629/download?secret_token=s-SYsUI&client_id=DQskPX1pntALRzMp4HSxya3Mc0AO66Ro"
+        },
+        {
+          "audio-title": "peace-and-blessings",
+          "audio-path": "https://api.soundcloud.com/tracks/397561617/download?secret_token=s-5aDug&client_id=DQskPX1pntALRzMp4HSxya3Mc0AO66Ro"
+        },
+        {
+          "audio-title": "the-iris-embraces-you",
+          "audio-path": "https://api.soundcloud.com/tracks/397561614/download?secret_token=s-Uo1BX&client_id=DQskPX1pntALRzMp4HSxya3Mc0AO66Ro"
+        },
+        {
+          "audio-title": "always-strive-for-improvement",
+          "audio-path": "https://api.soundcloud.com/tracks/397561599/download?secret_token=s-rHcqP&client_id=DQskPX1pntALRzMp4HSxya3Mc0AO66Ro"
+        },
+        {
+          "audio-title": "trick-or-treat",
+          "audio-path": "https://api.soundcloud.com/tracks/397561605/download?secret_token=s-TUucq&client_id=DQskPX1pntALRzMp4HSxya3Mc0AO66Ro"
+        },
+        {
+          "audio-title": "frightening",
+          "audio-path": "https://api.soundcloud.com/tracks/397561563/download?secret_token=s-Onp6b&client_id=DQskPX1pntALRzMp4HSxya3Mc0AO66Ro"
+        },
+        {
+          "audio-title": "no-snowflake-falls-wrong-place",
+          "audio-path": "https://api.soundcloud.com/tracks/397561626/download?secret_token=s-m1B2X&client_id=DQskPX1pntALRzMp4HSxya3Mc0AO66Ro"
+        },
+        {
+          "audio-title": "joy-to-the-world",
+          "audio-path": "https://api.soundcloud.com/tracks/397561635/download?secret_token=s-PYPzq&client_id=DQskPX1pntALRzMp4HSxya3Mc0AO66Ro"
+        },
+        {
+          "audio-title": "every-rooster-crows-own-pen",
+          "audio-path": "https://api.soundcloud.com/tracks/397561584/download?secret_token=s-vawOn&client_id=DQskPX1pntALRzMp4HSxya3Mc0AO66Ro"
+        },
+        {
+          "audio-title": "path-to-enlightenment",
+          "audio-path": "https://api.soundcloud.com/tracks/397561620/download?secret_token=s-4IkXM&client_id=DQskPX1pntALRzMp4HSxya3Mc0AO66Ro"
+        },
+        {
+          "audio-title": "if-do-not-change-direction",
+          "audio-path": "https://api.soundcloud.com/tracks/397561650/download?secret_token=s-UwYKR&client_id=DQskPX1pntALRzMp4HSxya3Mc0AO66Ro"
+        },
+        {
+          "audio-title": "how-disappointing",
+          "audio-path": "https://api.soundcloud.com/tracks/397561659/download?secret_token=s-Z3qf2&client_id=DQskPX1pntALRzMp4HSxya3Mc0AO66Ro"
+        },
+        {
+          "audio-title": "existence-is-mysterious",
+          "audio-path": "https://api.soundcloud.com/tracks/397561575/download?secret_token=s-XTv4v&client_id=DQskPX1pntALRzMp4HSxya3Mc0AO66Ro"
+        }
+      ]
+    }
+  ]
 }

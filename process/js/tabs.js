@@ -1,8 +1,5 @@
 
-// var $ = require ('jquery');
-
-// window.addEventListener("load", function(){
-  $(document).ready(function() {
+$(document).ready(function() {
   const tablinks = document.querySelectorAll('.tablinks');
   const tabcontent = document.querySelectorAll('.tabcontent');
   let currSection;
@@ -41,5 +38,4 @@
     // Get the element with id="defaultOpen" and click on it
     document.getElementById("defaultOpen").click();
   });
-  });
-// },false);
+});

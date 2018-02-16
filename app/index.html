@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Game Soundboard</title>
   <link rel="stylesheet" href="css/app.css">
+  <link rel="manifest" href="manifest.json">
   <style media="screen">
   @import url('https://fonts.googleapis.com/css?family=Titillium+Web');
   body {
@@ -111,13 +112,13 @@
     });
   });
   // run serviceWorker if available
-  if('serviceWorker' in navigator) {
-    navigator.serviceWorker
-      .register('./service-worker.js')
-      .then(function() {
-        console.log('service worker active');
-      })
-  }
+  // if('serviceWorker' in navigator) {
+  //   navigator.serviceWorker
+  //     .register('./service-worker.js')
+  //     .then(function() {
+  //       console.log('service worker active');
+  //     })
+  // }
   </script>
 </body>
 </html>

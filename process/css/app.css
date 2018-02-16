@@ -1,45 +1,4 @@
 
-/* @font-face {
-  font-family: 'overwatch';
-  src: url(../fonts/koverwatch.ttf);
-}
-@font-face {
-  font-family: 'overwatch-italic';
-  src: url(../fonts/bignoodletoo.ttf);
-} */
-
-/*
-Overwatch Color Theme:
-https://coolors.co/ffc70e-f99e1a-43484c-00c3ff-b2b0b0
-*/
-/* :root {
-  --mikado-yellow:  #FFC70E;
-  --bright-yellow:  #F99E1A;
-  --outer-space:    #43484C;
-  --deep-sky-blue:  #00C3FF;
-  --silver-chalice: #B2B0B0;
-
-  --font-general: 'overwatch';
-  --font-headers: 'overwatch-italic';
-  --bg-pattern: linear-gradient(27deg, #151515 5px, transparent 5px) 0 5px,
-  linear-gradient(207deg, #151515 5px, transparent 5px) 10px 0px,
-  linear-gradient(27deg, #222 5px, transparent 5px) 0px 10px,
-  linear-gradient(207deg, #222 5px, transparent 5px) 10px 5px,
-  linear-gradient(90deg, #1b1b1b 10px, transparent 10px),
-  linear-gradient(#1d1d1d 25%, #1a1a1a 25%, #1a1a1a 50%, transparent 50%, transparent 75%, #242424 75%, #242424);
-  --body-color: #131313;
-  --header-color: var(--bright-yellow);
-  --paragraph-color: #fff;
-  --tab-color: var(--mikado-yellow);
-  --tab-btn-hover: #FFB20C;
-  --tab-btn-active: var(--bright-yellow);
-  --brd-btn-color: rgba(178, 176, 176, .3);
-  --brd-btn-border: 1px solid #fff;
-  --brd-btn-hover: #fff;
-  --brd-btn-hover-p: #000;
-  --footer-color: var(--deep-sky-blue);
-} */
-
 /*
 Global Styles
 -----------------------------------*/
@@ -63,8 +22,14 @@ h4, h5, h6 {
   color: var(--header-color);
   margin: 0;
 }
+h3 {
+  font-size: 1.4rem;
+}
 p {
   color: var(--paragraph-color);
+}
+main {
+  padding: 10px;
 }
 img {
   display: block;
@@ -90,23 +55,33 @@ img {
   top: 0;
   left: 0;
 }
+.load-cover {
+  z-index: 1;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #010;
+}
 .loader {
-    position: absolute;
-    top:0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    margin: auto;
-    border: 16px solid #f3f3f3; /* Light grey */
-    border-top: 16px solid #3498db; /* Blue */
-    border-radius: 50%;
-    width: 120px;
-    height: 120px;
-    animation: spin 2s linear infinite;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  z-index: 2;
+  width: 150px;
+  height: 150px;
+  margin: -75px 0 0 -75px;
+  border: 16px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 16px solid #3498db;
+  width: 120px;
+  height: 120px;
+  animation: spin 2s linear infinite;
 }
 @keyframes spin {
-    0% { transform: rotate(0deg); }
-    100% { transform: rotate(360deg); }
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
 }
 
 /*
@@ -136,12 +111,6 @@ header {
 Tabs Sections
 -----------------------------------*/
 
-main {
-  padding: 10px;
-}
-h3 {
-  font-size: 1.4rem;
-}
 .tab {
   overflow: hidden;
   background-color: var(--tab-color);
@@ -203,7 +172,6 @@ Soundboard Sections
   }
 }
 
-
 /*
 Footer
 -----------------------------------*/
@@ -249,6 +217,10 @@ Index.html
   background-color: #1BC123;
   color: #fff;
 }
+
+/*
+Media Queries
+-----------------------------------*/
 
 @media (min-width: 768px) {
   .site {
