@@ -3,6 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <title>Soundboard - character-name</title>
   <link rel="stylesheet" href="css/app.css">
   <link rel="manifest" href="manifest.json">
@@ -63,7 +64,7 @@
           </script>
         </div>
       </nav>
-
+  
       <script id="sectionTemplate" type="text/handlebars-template">
         {{#each tabs}}
         <div id="{{tab}}" class="tabcontent">
@@ -71,7 +72,7 @@
           {{#each audio}}
           <div class="brd-btn">
             <p class="btn-text">{{this.audio-title}}</p>
-            <audio class="track" data src="https://drive.google.com/uc?export=download&id={{this.audio-path}}"></audio>
+            <audio class="track" src="https://drive.google.com/uc?export=download&id={{this.audio-path}}"></audio>
           </div>
           {{/each}}
         </div><!-- tabcontent -->

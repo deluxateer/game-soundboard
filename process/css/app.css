@@ -151,6 +151,7 @@ Soundboard Sections
   margin: 8px auto;
   background-color: var(--brd-btn-color);
   border: var(--brd-btn-border);
+  cursor: pointer;
 }
 .brd-btn p {
   margin: 0;
@@ -206,11 +207,11 @@ Index.html
 .character-option {
   background-color: #fff;
   color: #000;
+  text-decoration: none;
 }
-.character-option a,
+.character-option,
 .character-option h3,
 .character-option p {
-  text-decoration: none;
   color: inherit;
 }
 .character-option:hover {
