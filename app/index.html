@@ -78,28 +78,24 @@
     <div class="container">
       <h2>Select Your Character</h2>
       <div class="grid">
-        <!-- <div data-name="soldier76" class="character-option"> -->
           <a href="board.html" data-name="soldier76" class="character-option">
             <img class="character-icon" src="https://drive.google.com/uc?export=download&id=1wbeMfJvpwqBM83H8ied7yr4g2ktiR4pr" alt="Soldier 76 Icon">
             <h3 class="character-name">Soldier 76</h3>
             <p>Overwatch</p>
           </a>
-        <!-- </div> -->
-        <!-- <div data-name="zenyatta" class="character-option"> -->
           <a href="board.html" data-name="zenyatta" class="character-option">
             <img class="character-icon" src="https://drive.google.com/uc?export=download&id=1b-rQHXE9acFLujbQgL3jva5iGI-ScQJR" alt="Zenyatta Icon">
             <h3 class="character-name">Zenyatta</h3>
             <p>Overwatch</p>
           </a>
-        <!-- </div> -->
       </div>
     </div>
     <footer>
       <p>SoundBoard by ***REMOVED***</p>
       <ul>
-        <li><a href="https://github.com/***REMOVED***">Github</a></li>
-        <li><a href="https://linkedin.com/in/***REMOVED***">LinkedIn</a></li>
-        <li><a href="https://***REMOVED***.github.io">Portfolio</a></li>
+        <li><a target="_blank" href="https://github.com/***REMOVED***">Github</a></li>
+        <li><a target="_blank" href="https://linkedin.com/in/***REMOVED***">LinkedIn</a></li>
+        <li><a target="_blank" href="https://***REMOVED***.github.io">Portfolio</a></li>
       </ul>
     </footer>
   </div>
@@ -107,7 +103,6 @@
   // decide which json file to render for soundboard
   let options = document.querySelectorAll('.character-option');
   let characterToRender = window.localStorage
-  // options.forEach(option => {
   options.forEach(function(option) {
     option.addEventListener('click', function(){
       characterToRender.setItem('character', option.dataset.name);
