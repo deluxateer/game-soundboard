@@ -1,18 +1,18 @@
 # Game Soundboard
 
-A soundboard progressive web app that plays audio lines of the requested character. When a user selects a character, they are redirected to a webpage where a JSON file contain the selected character's data and theme colors are extracted (via jQuery AJAX function) and dynamically rendered onto the page.
+A soundboard progressive web app that plays audio lines of the requested character. When a user selects a character, they are redirected to a webpage where a JSON file containing the selected character's data and theme colors are extracted (via jQuery AJAX function) and dynamically rendered onto the page.
 
-This project the usual HTML, CSS, JS as well as jQuery and NPM (Node.js Package Manager) packages. One of them was Gulp.js, a task runner used to streamline the workflow used in this project and utilize the other packages that were installed.
+This project has the usual HTML, CSS, JS as well as jQuery and NPM (Node.js Package Manager) packages. One of them was Gulp.js, a task runner used to streamline the workflow used in this project and utilize the other packages that were installed.
 
-An attempt was made to utilized service workers to cache the data so it can still be render offline, but it failed. A possible extra to fix in the future.
+An attempt was made to utilized service workers to cache the data so it can still be rendered offline, but it failed. A possible extra to fix in the future.
 
-Note: All audio, images, and fonts are trademarked property belong to their respective companies, which I am willing to take down upon request. Please don't sue me.
+Note: All audio, images, and fonts are trademarked property belonging to their respective companies, which I am willing to take down upon request. Please don't sue me.
 
 ## Running This Project
 
 **To use my project:**
 
-1. Clone this repo into a local directory. In the root directory, run `npm install` to install of the necessary components automatically (assuming you already have npm installed).
+1. Clone this repo into a local directory. In the root directory, run `npm install` to install of the necessary components automatically (assuming you already have npm itself installed).
 2. When the installations are complete, simply issue the command `gulp` and the necessary CSS and JS will automatically be generated and the live-server will start up, taking you to the landing page. Enjoy!
 
 Alternatively, it is currently hosted on [Firebase.](https://game-soundboard.firebaseapp.com/)
@@ -20,7 +20,7 @@ Alternatively, it is currently hosted on [Firebase.](https://game-soundboard.fir
 
 ## Component Descriptions
 
-This page assumes the reader has no knowledge of npm, just like me when I started this project. NPM is a package manager that always the developer to initialize their project with a package.json which describe basic information about their project (notably dependencies) and install various types of package to accomplish various types of tasks (ie libraries, debuggers, minifiers, transcompilers, etc.). These packages that you use in your project are described the dependencies section of the aforementioned package.json file.
+This page assumes the reader has no knowledge of npm, just like me when I started this project. NPM is a package manager that allows the developer to initialize their project with a package.json which describes basic information about their project (notably dependencies) and install various types of package to accomplish various types of tasks (ie libraries, debuggers, minifiers, transcompilers, etc.). These packages that you use in your project are described in the dependencies section of the aforementioned package.json file.
 
 For my project, my package.json file has the following dependencies:
 
@@ -35,7 +35,7 @@ For my project, my package.json file has the following dependencies:
 * `jquery` : the JS library we all know and love. Use browserify and put the line `var $ = require('jquery');` into your `.js` file and work your dollar-sign magic.
 * `pump` : Awesome debugger that provides more meaningful error messages than `gulp.pipe()`.
 * `gulp-webserver` : deployes a live-server that will render your project on a browser locally as if it was actually on a hosting server. Changes you make to your files will be updated on your browser on-the-fly. Most modern text-editors like Brackets and Atom already have this available, but this is good to have anyway.
-* `handlebars`: `handlebars.js` is a JS templating framework that dynamically creates HTML code using logic like each and if-else statements. 90% of my board.html page is made of handlebar scripts that render the character's audio lines and data automatically.
+* `handlebars` : `handlebars.js` is a JS templating framework that dynamically creates HTML code using logic like each and if-else statements. 90% of my board.html page is made of handlebar scripts that render the character's audio lines and data automatically.
 
 You can install any of these packages by using navigating to your project's directory on the Node.js Command Line and issuing a `npm install --save (or --save-dev if it's critical to the project) packageName` command.
 
