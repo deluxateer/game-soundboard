@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,7 +9,7 @@
   <link rel="stylesheet" href="css/app.css">
   <link rel="manifest" href="manifest.json">
   <style media="screen">
-  @import url('https://fonts.googleapis.com/css?family=Titillium+Web');
+    @import url('https://fonts.googleapis.com/css?family=Titillium+Web');
   body {
     font-family: 'Titillium Web', sans-serif;
     background: #22252a;
@@ -67,47 +68,49 @@
   }
   </style>
 </head>
+
 <body>
   <div class="sidebar">
     <h1>Game SoundBoard</h1>
     <div class="container">
-      <p>Listen to your favorite character's voice lines and sassy remarks by clicking on the respective icon below. Try using them to entertain your friends (and yourself) online and elsewhere. Enjoy!</p>
+      <p>Listen to your favorite character's voice lines and sassy remarks by clicking on the respective icon below.
+        Try using them to entertain your friends (and yourself) online and elsewhere. Enjoy!</p>
     </div>
   </div>
   <div id="main">
     <div class="container">
       <h2>Select Your Character</h2>
       <div class="grid">
-          <a href="board.html" data-name="soldier76" class="character-option">
-            <img class="character-icon" src="https://drive.google.com/uc?export=download&id=1wbeMfJvpwqBM83H8ied7yr4g2ktiR4pr" alt="Soldier 76 Icon">
-            <h3 class="character-name">Soldier 76</h3>
-            <p>Overwatch</p>
-          </a>
-          <a href="board.html" data-name="zenyatta" class="character-option">
-            <img class="character-icon" src="https://drive.google.com/uc?export=download&id=1b-rQHXE9acFLujbQgL3jva5iGI-ScQJR" alt="Zenyatta Icon">
-            <h3 class="character-name">Zenyatta</h3>
-            <p>Overwatch</p>
-          </a>
+        <a href="board.html" data-name="soldier76" class="character-option">
+          <img class="character-icon" src="https://drive.google.com/uc?export=download&id=1wbeMfJvpwqBM83H8ied7yr4g2ktiR4pr"
+            alt="Soldier 76 Icon">
+          <h3 class="character-name">Soldier 76</h3>
+          <p>Overwatch</p>
+        </a>
+        <a href="board.html" data-name="zenyatta" class="character-option">
+          <img class="character-icon" src="https://drive.google.com/uc?export=download&id=1b-rQHXE9acFLujbQgL3jva5iGI-ScQJR"
+            alt="Zenyatta Icon">
+          <h3 class="character-name">Zenyatta</h3>
+          <p>Overwatch</p>
+        </a>
       </div>
     </div>
     <footer>
-      <p>SoundBoard by ***REMOVED***</p>
+      <p>SoundBoard by Deluxateer</p>
       <ul>
-        <li><a target="_blank" href="https://github.com/***REMOVED***">Github</a></li>
-        <li><a target="_blank" href="https://linkedin.com/in/***REMOVED***">LinkedIn</a></li>
-        <li><a target="_blank" href="https://***REMOVED***.github.io">Portfolio</a></li>
+        <li><a target="_blank" href="https://github.com/deluxateer">Github</a></li>
       </ul>
     </footer>
   </div>
   <script type="text/javascript">
-  // decide which json file to render for soundboard
-  let options = document.querySelectorAll('.character-option');
-  let characterToRender = window.localStorage
-  options.forEach(function(option) {
-    option.addEventListener('click', function(){
-      characterToRender.setItem('character', option.dataset.name);
+    // decide which json file to render for soundboard
+    let options = document.querySelectorAll('.character-option');
+    let characterToRender = window.localStorage
+    options.forEach(function (option) {
+      option.addEventListener('click', function () {
+        characterToRender.setItem('character', option.dataset.name);
+      });
     });
-  });
   // run serviceWorker if available
   // if('serviceWorker' in navigator) {
   //   navigator.serviceWorker
@@ -118,4 +121,5 @@
   // }
   </script>
 </body>
+
 </html>

@@ -8,9 +8,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/***REMOVED***/game-soundboard.git"
+    "url": "https://github.com/deluxateer/game-soundboard.git"
   },
-  "author": "***REMOVED***",
+  "author": "Deluxateer",
   "license": "ISC",
   "devDependencies": {
     "babel-core": "^6.26.0",
